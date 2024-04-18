@@ -45,3 +45,15 @@ display: flex;
 .social a{
 margin-right: 10px;
 }
+.footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.footer a{
+    color: red;
+}
+.footer {
+    padding: 0px 10px 0px 10px;
+}
