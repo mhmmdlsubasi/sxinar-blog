@@ -1,0 +1,69 @@
+baseURL: "https://basaransemih.github.io"
+title: "Semih Başaran"
+DefaultContentLanguage: tr
+theme: hugo-PaperMod
+
+languages:
+  tr:
+    languageName: ":tr:"
+    weight: 1
+    params:
+      languageAltTitle: Turkish
+      homeInfoParams:
+        Title: "Başaran Semih"
+        Content: Alt Metin
+          
+menu:
+  main:
+    - identifier: Anasayfa
+      name: Anasayfa
+      url: /
+      weight: 1
+    - identifier: Blog
+      name: Blog
+      url: /post/
+      weight: 2
+    - identifier: Ara
+      name: "Ara \U0001f50d"
+      url: /search/
+      weight: 3
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    title: "Semih Başaran"
+    description: "Açıklama"
+    author: Semih
+    DateFormat: "2 January, 2006"
+    defaultTheme: auto
+    rss: true
+    ShowFullTextinRSS: true
+
+    fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+    socialIcons:
+        - name: mastodon
+          url: "https://fosstodon.org/"
+        - name: github
+          url: "https://github.com/basaransemih"
+        - name: email
+          url: "mailto:mailadresin@gmail.com"
+        - name: rss
+          url: "https://basaransemih.github.io/index.xml"
+
+    editPost:
+        URL: "https://basaransemih.github.io/tree/main/content"
+        Text: "Düzenle"
+        appendFilePath: true
