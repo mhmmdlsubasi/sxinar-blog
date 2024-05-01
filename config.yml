@@ -64,6 +64,6 @@ params:
           url: "https://basaransemih.github.io/index.xml"
 
     editPost:
-        URL: "https://github.com/basaransemih.github.io/tree/master/content"
+        URL: "https://github.com/basaransemih.github.io/tree/main/content"
         Text: "Düzenle"
         appendFilePath: true
