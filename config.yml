@@ -64,9 +64,9 @@ params:
           url: "https://basaransemih.github.io/index.xml"
         - name: spotify
           url: "https://spotify.com/basaransemih"
-       - name: xda
+        - name: xda
           url: "https://xdaforums.com/m/basaransemih.12859096"
-       - name: gitlab
+        - name: gitlab
           url: "https://gitlab.com/basaransemih"
 
     editPost:
