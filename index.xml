@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>basaransemih</title><link>https://basaransemih.github.io/</link><description>Recent content on basaransemih</description><generator>Hugo -- 0.125.4</generator><language>tr</language><lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://basaransemih.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://basaransemih.github.io/post/merhaba/</link><pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate><guid>https://basaransemih.github.io/post/merhaba/</guid><description>Merhaba ben Semih Başaran burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz. Yardımları için btt.community/u/wise teşekkürler 🥰</description><content:encoded>&lt;p>Merhaba ben Semih Başaran burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
-Yardımları için btt.community/u/wise teşekkürler 🥰&lt;/p></content:encoded></item></channel></rss>
+Yardımları için btt.community/u/wise teşekkürler 🥰&lt;/p></content:encoded></item><item><title/><link>https://basaransemih.github.io/post/android-pil-optimizasyonu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://basaransemih.github.io/post/android-pil-optimizasyonu/</guid><description>Merhaba sevgili okurlarım. Biliyorsunuz Andoid 7 öncesinde telefonlarda uygulamalar optimize ediliyor diye bir ifade çıkardı. Android 7 sonrası bu optimizasyonu Android kaldırdı.(sanırım Samsung devam ettiriyor) Aslında Android 7 ve sonrası eğer bu şartları karşılaşmamış olmanız halinde kendisi yapıyor. Şartlar:
+telefonunuzun şarja takılı olması gerekiyor. 100% şarj durumunda olması gerekiyor. telefon açık durumda olmalı. Yani kapalı olmamalı. telefon kullanılmamalı. telefonda aktiv bir işlem yapılmamalı (örnek muzik çalmamalı, video izlenmemeli) ( en az 30 dakika ) Aslında uygulama optimizasyonu pil için gerekli bir şey olduğu için ve yukarıdaki şartları karşılamayanlar için bugün ADB ile nasıl uygulama optimizasyonu yapacağınızı göstereceğim.</description><content:encoded><![CDATA[<p>Merhaba sevgili okurlarım.
+Biliyorsunuz Andoid 7 öncesinde telefonlarda uygulamalar optimize ediliyor diye bir ifade çıkardı.
+Android 7 sonrası bu optimizasyonu Android kaldırdı.(sanırım Samsung devam ettiriyor)
+Aslında Android 7 ve sonrası eğer bu şartları karşılaşmamış olmanız halinde kendisi yapıyor.
+Şartlar:</p>
+<ol>
+<li>telefonunuzun şarja takılı olması gerekiyor.</li>
+<li>100% şarj durumunda olması gerekiyor.</li>
+<li>telefon açık durumda olmalı. Yani kapalı olmamalı.</li>
+<li>telefon kullanılmamalı.</li>
+<li>telefonda aktiv bir işlem yapılmamalı (örnek muzik çalmamalı, video izlenmemeli) ( en az 30 dakika )
+Aslında uygulama optimizasyonu pil için gerekli bir şey olduğu için ve yukarıdaki şartları karşılamayanlar için bugün ADB ile nasıl uygulama optimizasyonu yapacağınızı göstereceğim.
+Öncelikle ayarlar menüsüne giriyoruz.
+MIUI sürüm numarasına tıklıyoruz 5-6 defa (diğerleri için çekirdek sürümüne) sonra geliştirici seçeneklerinde USB hata ayıklama açıyoruz.</li>
+</ol>
+<p>Minimal adb and fastboot programını bilgisayara indiriyoruz.
+Sonra telefinu bilgisayara bağlıyoruz.
+Su komutları ADB satırlarına giriyoruz.</p>
+<p>adb devices
+adb shell &ldquo;cmd package bg-dexopt-job&rdquo;
+Komutunu girin.</p>
+<p>Eğer Android 10 ve üzeri kullanıyorsanız işlem bitdiğinde success yazısı çıkacaktır. Android 7-9 sürümlerindeyse işlem bitince komut penceresinde yeni satıra gecilecektir. Oradan işlemin bitdiğini anlayabilirsiniz. Bu işlemi yeni ROM kurdukdan sonra veya romunuzu güncelledikden sonra (örnek haftalık ROM&rsquo;lar kullanıyorsanız her hafta yeni güncellemeden sonra bu işlemi yapın) yapmanız önerilir. TWRP üzerinden Wipe/Cache ve Wipe/Dalvik yaptıkdan sonra da bu işlemi yapmanız önerilir. Uygulamalarınız güncellemeden sonra yavaş açılıyorsa, bu işlemi yapmanız cihaza iyi gelecektir.
+Mutlu günler :)</p>
+]]></content:encoded></item></channel></rss>
