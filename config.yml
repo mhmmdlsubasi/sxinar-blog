@@ -1,5 +1,5 @@
 baseURL: "https://basaransemih.github.io"
-title: "Semih Başaran"
+title: "basaransemih"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
 
@@ -10,8 +10,8 @@ languages:
     params:
       languageAltTitle: Turkish
       homeInfoParams:
-        Title: "Başaran Semih"
-        Content: Alt Metin
+        Title: "basaransemih"
+        Content: Burası benim teknoloji çiftliğim.
           
 menu:
   main:
@@ -36,7 +36,7 @@ outputs:
 
 params:
     env: production
-    title: "Semih Başaran"
+    title: "basaransemih"
     description: "Açıklama"
     author: Semih
     DateFormat: "2 January, 2006"
@@ -59,11 +59,11 @@ params:
         - name: github
           url: "https://github.com/basaransemih"
         - name: email
-          url: "mailto:mailadresin@gmail.com"
+          url: "mailto:oshidev@.proton.me"
         - name: rss
           url: "https://basaransemih.github.io/index.xml"
 
     editPost:
-        URL: "https://basaransemih.github.io/tree/main/content"
+        URL: "https://github.com/basaransemih.github.io/tree/master/content"
         Text: "Düzenle"
         appendFilePath: true
