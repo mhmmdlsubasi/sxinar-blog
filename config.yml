@@ -2,15 +2,6 @@ baseURL: "https://basaransemih.github.io"
 title: "basaransemih"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
-
-imaging:
-  resampleFilter: Linear
-  #resampleFilter: MitchellNetravali (Cubic filter for alternative)
-  hint: picture
-  exif:
-    disableDate: true
-    disableLatLong: true
-    excludeFields: ".*"
     
 languages:
   tr:
