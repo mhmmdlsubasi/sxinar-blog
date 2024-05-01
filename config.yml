@@ -54,8 +54,6 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
     socialIcons:
-        - name: mastodon
-          url: "https://fosstodon.org/"
         - name: github
           url: "https://github.com/basaransemih"
         - name: email
