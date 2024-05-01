@@ -1,3 +1,11 @@
+---
+title: "ADB ile sistem pil optimize etme
+"
+date: 2024-05-01
+tags: ["android", "optimize"]
+#author: "Yazar"
+draft: false
+---
 Merhaba sevgili okurlarım.
 Biliyorsunuz Andoid 7 öncesinde telefonlarda uygulamalar optimize ediliyor diye bir ifade çıkardı.
 Android 7 sonrası bu optimizasyonu Android kaldırdı.(sanırım Samsung devam ettiriyor)
