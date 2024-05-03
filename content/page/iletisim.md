@@ -16,7 +16,7 @@ Benimle iletişim kurmak isterseniz:
 **e-posta** oshidev@proton.me  
 **e-posta** mikabe@tuta.io
 
-*Blog'um, [RSS]([https://basaransemih.github.io/index.xml]) destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.*
+*Blog'um, [RSS](https://basaransemih.github.io/index.xml) destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.*
 
 ---
 
