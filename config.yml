@@ -27,8 +27,8 @@ menu:
       name: İletişim
       url: /page/iletisim/
       weight: 5
-    - identifier: Etiketler
-      name: Etiketler
+    - identifier: Kategoriler
+      name: Kategoriler
       url: /tags/
       weight: 3
     - identifier: Arşiv
