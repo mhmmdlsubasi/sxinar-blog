@@ -1,7 +1,11 @@
---
+---
 title: "İletişim"
-date: 2024-05-03
-author: "Semih"
+date: 2021-12-01T23:58:00+01:00
+author: "Wise"
+hidemeta: true
+disableShare: true
+searchHidden: true
+ShowPostNavLinks: false
 ---
 
 Merhaba sevgili okurum.
