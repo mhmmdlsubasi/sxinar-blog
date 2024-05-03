@@ -19,21 +19,6 @@ Benimle iletişim kurmak isterseniz:
 *Blog'um, [RSS](https://basaransemih.github.io/index.xml) destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.*
 
 ---
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
----
 
 Bu blog sitesini kurarken yardımlarını esirgemeyen [Wise](https://wiseweb-works.github.io/blog/) çok teşekkürler :heart_eyes:	
 
