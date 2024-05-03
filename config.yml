@@ -33,7 +33,7 @@ menu:
       weight: 3
     - identifier: Arşiv
       name: "Arşiv"
-      url: /archives/
+      url: /arsiv/
       weight: 4
     - identifier: Ara
       name: "Ara \U0001f50d"
