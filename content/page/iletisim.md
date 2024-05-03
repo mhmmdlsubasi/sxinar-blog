@@ -22,5 +22,4 @@ Benimle iletişim kurmak isterseniz:
 
 Bu blog sitesini kurarken yardımlarını esirgemeyen [Wise](https://wiseweb-works.github.io/blog/) çok teşekkürler.
 
-Bu site, [Hugo](https://gohugo.io/) kullanılarak ve [PaperMod](https://github.com/adityatelange/hugo-PaperMod/) temasıyla oluşturulmuştur. Ayrıca bu site en güncel HUGO ve PaperMod temasını anında güncelleme destekl
-dir.
+Bu site, [Hugo](https://gohugo.io/) kullanılarak ve [PaperMod](https://github.com/adityatelange/hugo-PaperMod/) temasıyla oluşturulmuştur. Ayrıca bu site en güncel HUGO ve PaperMod temasını anında güncelleme desteklidir.
