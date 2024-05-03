@@ -78,6 +78,13 @@ params:
           url: "https://xdaforums.com/m/basaransemih.12859096"
         - name: gitlab
           url: "https://gitlab.com/basaransemih"
+         - name: other
+          url: "https://btt.community/u/basaransemih"
+         - name: other
+          url: "https://www.technopat.net/sosyal/uye/626016.626016/"
+         - name: other
+          url: "https://techolay.net/sosyal/uye/7046.2046/"
+          
 
     editPost:
         URL: "https://github.com/basaransemih/basaransemih.github.io/tree/main/content"
