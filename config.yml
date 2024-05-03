@@ -23,7 +23,7 @@ menu:
       name: Blog
       url: /post/
       weight: 2
-          - identifier: İletişim
+    - identifier: İletişim
       name: İletişim
       url: /page/iletisim/
       weight: 3
