@@ -23,6 +23,18 @@ menu:
       name: Blog
       url: /post/
       weight: 2
+          - identifier: İletişim
+      name: İletişim
+      url: /page/iletisim/
+      weight: 3
+    - identifier: Etiketler
+      name: Etiketler
+      url: /tags/
+      weight: 4
+    - identifier: Arşiv
+      name: "Arşiv"
+      url: /archives/
+      weight: 5
     - identifier: Ara
       name: "Ara \U0001f50d"
       url: /search/
