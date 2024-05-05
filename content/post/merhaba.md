@@ -8,3 +8,4 @@ draft: false
 
 Merhaba ben Semih Başaran burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 Yardımları için btt.community/u/wise teşekkürler 🥰
+<script>
