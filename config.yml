@@ -90,13 +90,4 @@ params:
         URL: "https://github.com/basaransemih/basaransemih.github.io/tree/main/content"
         Text: "Düzenle"
         appendFilePath: true
-           
-# Comment config
-    [params.page.comment]
-      enable = true
-     # Disqus comment config (https://disqus.com/)
-      [params.page.comment.disqus]
-        enable = true
-         # Disqus shortname to use Disqus in posts
-        shortname = "<shortname>"
 
