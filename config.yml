@@ -2,7 +2,7 @@ baseURL: "https://basaransemih.github.io"
 title: "basaransemih"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
-    
+
 languages:
   tr:
     languageName: ":tr:"
@@ -12,7 +12,7 @@ languages:
       homeInfoParams:
         Title: "basaransemih"
         Content: Burası benim teknoloji çiftliğim.
-          
+
 menu:
   main:
     - identifier: Anasayfa
@@ -55,7 +55,7 @@ params:
     defaultTheme: auto
     rss: true
     ShowFullTextinRSS: true
-
+    comments: true
     fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -84,10 +84,9 @@ params:
           url: "https://www.technopat.net/sosyal/uye/626016.626016/"
         - name: other
           url: "https://techolay.net/sosyal/uye/7046.2046/"
-          
+
 
     editPost:
         URL: "https://github.com/basaransemih/basaransemih.github.io/tree/main/content"
         Text: "Düzenle"
         appendFilePath: true
-
