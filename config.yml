@@ -2,7 +2,6 @@ baseURL: "https://basaransemih.github.io"
 title: "basaransemih"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
-disqusShortname = "basaransemih"
     
 languages:
   tr:
