@@ -90,3 +90,8 @@ params:
         URL: "https://github.com/basaransemih/basaransemih.github.io/tree/main/content"
         Text: "Düzenle"
         appendFilePath: true
+        
+    assets:
+        disableHLJS: true
+        disableFingerprinting: false
+        favicon: "/basaransemih.github.io/favicons/basaransemih.ico"
