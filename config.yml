@@ -94,4 +94,4 @@ params:
     assets:
         disableHLJS: true
         disableFingerprinting: false
-        favicon: "/basaransemih.github.io/favicons/basaransemih.ico"
+        favicon: "basaransemih.github.io/static/favicons/basaransemih.ico"
