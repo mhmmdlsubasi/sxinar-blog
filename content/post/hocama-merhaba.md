@@ -1,5 +1,5 @@
 ---
-title: "Zahra Hocama Merhaba
+title: "Zehra Hocama Merhaba
 "
 date: 2024-05-01
 tags: ["kisisel"]
