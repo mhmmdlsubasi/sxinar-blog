@@ -1,7 +1,7 @@
 ---
 title: "Zehra Hocama Merhaba
 "
-date: 2024-05-01
+date: 2024-05-17
 tags: ["kisisel"]
 #author: "Yazar"
 draft: false
