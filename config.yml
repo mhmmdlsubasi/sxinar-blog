@@ -69,13 +69,11 @@ params:
         - name: github
           url: "https://github.com/basaransemih"
         - name: email
-          url: "mailto:oshidev@proton.me"
+          url: "mailto:me.unreal462@simplelogin.com"
         - name: rss
           url: "https://basaransemih.github.io/index.xml"
         - name: spotify
           url: "https://spotify.com/basaransemih"
-        - name: xda
-          url: "https://xdaforums.com/m/basaransemih.12859096"
         - name: gitlab
           url: "https://gitlab.com/basaransemih"
 
