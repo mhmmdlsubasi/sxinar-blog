@@ -13,8 +13,7 @@ Yazdıklarım hoşuna gittiyse,yazılarıma destek sunmak isterseniz,yazılarım
 O halde benimle iletişime geçebilirsiniz.
 Benimle iletişim kurmak isterseniz:
 
-**e-posta** oshidev@proton.me  
-**e-posta** mikabe@tuta.io
+**e-posta** me.unreal462@simplelogin.com
 
 *Blog'um, [RSS](https://basaransemih.github.io/index.xml) destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.*
 
