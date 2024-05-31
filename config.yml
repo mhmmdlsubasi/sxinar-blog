@@ -82,8 +82,4 @@ params:
         URL: "https://github.com/Sxinar/Sxinar.github.io/tree/main/content"
         Text: "Düzenle"
         appendFilePath: true
-        
-    assets:
-        disableHLJS: true
-        disableFingerprinting: false
-        favicon: "/sxinar.github.io/static/favicons/favicon.ico"
+      
