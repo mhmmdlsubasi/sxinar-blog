@@ -15,10 +15,8 @@ Benimle iletişim kurmak isterseniz:
 
 **e-posta** me.unreal462@simplelogin.com
 
-*Blog'um, [RSS](https://basaransemih.github.io/index.xml) destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.*
+*Blog'um, [RSS](https://sxinar.github.io/index.xml) destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.*
 
 ---
-
-Bu blog sitesini kurarken yardımlarını esirgemeyen [Wise](https://wiseweb-works.github.io/blog/) çok teşekkürler :heart_eyes:	
 
 Bu site, [Hugo](https://gohugo.io/) kullanılarak ve [PaperMod](https://github.com/adityatelange/hugo-PaperMod/) temasıyla oluşturulmuştur. Ayrıca bu site en güncel HUGO ve PaperMod temasını anında güncelleme desteklidir.
