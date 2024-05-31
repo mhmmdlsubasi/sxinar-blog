@@ -67,7 +67,7 @@ params:
 
     socialIcons:
         - name: github
-          url: "https://github.com/basaransemih"
+          url: "https://github.com/Sxinar"
         - name: email
           url: "mailto:me.unreal462@simplelogin.com"
         - name: rss
@@ -79,11 +79,11 @@ params:
 
         
     editPost:
-        URL: "https://github.com/basaransemih/basaransemih.github.io/tree/main/content"
+        URL: "https://github.com/Sxinar/Sxinar.github.io/tree/main/content"
         Text: "Düzenle"
         appendFilePath: true
         
     assets:
         disableHLJS: true
         disableFingerprinting: false
-        favicon: "/basaransemih.github.io/static/favicons/favicon.ico"
+        favicon: "/sxinar.github.io/static/favicons/favicon.ico"
