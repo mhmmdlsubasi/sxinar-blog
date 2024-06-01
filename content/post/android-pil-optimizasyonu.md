@@ -20,7 +20,7 @@ Aslında uygulama optimizasyonu pil için gerekli bir şey olduğu için ve yuka
 Gerçekten pil kullanımına etkisi çok verimli oluyor.
 Öncelikle ayarlar menüsüne giriyoruz.
 * MIUI sürüm numarasına tıklıyoruz 5-6 defa (diğer cihaz markaları için Hakkında->çekirdek sürümüne) sonra geliştirici seçeneklerinde USB hata ayıklama açıyoruz.
-* [Buraya tıklayarak Minimal ADB And Fastboot]([https://www.youtube.com/@herkesicinlinux](https://xiaomitools.com/download/minimal-adb-ve-fastboot-v1-4-3/?wpdmdl=1402&refresh=665b0ef0a43461717243632&ind=0&filename=minimal_adb_fastboot_v1.4.3.zip&lazykey=665b0ef492d59)! programını bilgisayara indiriyoruz.
+* [Buraya tıklayarak Minimal ADB And Fastboot]([https://www.youtube.com/@herkesicinlinux](https://xiaomitools.com/download/minimal-adb-ve-fastboot-v1-4-3/?wpdmdl=1402&refresh=665b0ef0a43461717243632&ind=0&filename=minimal_adb_fastboot_v1.4.3.zip&lazykey=665b0ef492d59) programını bilgisayara indiriyoruz.
 *Sonra telefonumuzu data kablosu ile bilgisayara bağlıyoruz.
 Sonrasında ise komutları ADB satırlarına giriyoruz.
 
