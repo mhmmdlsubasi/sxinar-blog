@@ -9,4 +9,22 @@ Benimle iletişim kurmak isterseniz:</p>
 <p><em>Blog&rsquo;um, <a href="https://sxinar.github.io/index.xml">RSS</a> destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</em></p>
 <hr>
 <p>Bu site, <a href="https://gohugo.io/">Hugo</a> kullanılarak ve <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a> temasıyla oluşturulmuştur. Ayrıca bu site en güncel HUGO ve PaperMod temasını anında güncelleme desteklidir.</p>
+]]></content:encoded></item><item><title>Proje</title><link>https://sxinar.github.io/page/proje/</link><pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/page/proje/</guid><description>params: env: production title: &amp;ldquo;Sxinar&amp;rdquo; description: &amp;ldquo;Proje&amp;rdquo; author: Sxinar DateFormat: &amp;ldquo;2 January, 2006&amp;rdquo; defaultTheme: auto rss: true ShowFullTextinRSS: true comments: true fuseOpts: isCaseSensitive: false shouldSort: true location: 0 distance: 1000 threshold: 0.4 minMatchCharLength: 0 keys: [&amp;ldquo;title&amp;rdquo;, &amp;ldquo;permalink&amp;rdquo;, &amp;ldquo;summary&amp;rdquo;, &amp;ldquo;content&amp;rdquo;]</description><content:encoded><![CDATA[<p>params:
+env: production
+title: &ldquo;Sxinar&rdquo;
+description: &ldquo;Proje&rdquo;
+author: Sxinar
+DateFormat: &ldquo;2 January, 2006&rdquo;
+defaultTheme: auto
+rss: true
+ShowFullTextinRSS: true
+comments: true
+fuseOpts:
+isCaseSensitive: false
+shouldSort: true
+location: 0
+distance: 1000
+threshold: 0.4
+minMatchCharLength: 0
+keys: [&ldquo;title&rdquo;, &ldquo;permalink&rdquo;, &ldquo;summary&rdquo;, &ldquo;content&rdquo;]</p>
 ]]></content:encoded></item></channel></rss>
