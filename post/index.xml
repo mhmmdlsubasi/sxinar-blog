@@ -61,11 +61,11 @@ Bugün Fedora kullanırken çok işime yarayan,linux kullanımımı çok işlevs
 </ul>
 </li>
 </ul>
-]]></content:encoded></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxinar.github.io/post/gsi-kurulumu/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/gsi-kurulumu/</guid><description>Merhaba`
+]]></content:encoded></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxinar.github.io/post/gsi-kurulumu/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/gsi-kurulumu/</guid><description>Merhaba
 Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &amp;ldquo;GSI&amp;rdquo; nedir onu anlatacağım.
 GSI nedir? GSI&amp;rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.
 GSI kurmanın en büyük 2 sebebi;
-Daha yüksek Android sürümü Ve insanların kendi arayüzlerini beğenmemesi GSI kurmanın eksileri;</description><content:encoded><![CDATA[<p>Merhaba`</p>
+Daha yüksek Android sürümü Ve insanların kendi arayüzlerini beğenmemesi GSI kurmanın eksileri;</description><content:encoded><![CDATA[<p>Merhaba</p>
 <p>Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &ldquo;<strong>GSI</strong>&rdquo; nedir onu anlatacağım.</p>
 <p>GSI nedir?
 GSI&rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.</p>
