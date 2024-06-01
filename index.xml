@@ -32,7 +32,7 @@ Sonrasında ise komutları ADB satırlarına giriyoruz.</li>
 <p>İlk olarak <code>adb devices</code> komutunu giriyoruz.
 Eğer Bilgisayarımız telefonumuzu görüyorsa telefonumuzdan bir izin isteyecektir.
 Eğer bilgisayarımız görmüyorsa bunun sebebi yüksek ihtimalle sürücü eksikliği dolayısıyladır.
-Driver indirmek için <a href="https://dl.google.com/android/repository/usb_driver_r13-windows.zip?hl=tr">Buraya tıklayarak Android için sunulan resmi sürücüyü .zip dosyası olarak indiriyoruz.</a> daha sonra ise arşiv dosyamızı ayıklayıp .inf dosyamıza sağ tıklayarak &lsquo;Yükle&rsquo; seçeneğine tıklayarak sürücümüzün indirmesini bekliyoruz.İşlemler gerçekleştikten sonra bilgisayarımızı yeniden başlatıyoruz.
+Driver indirmek için <a href="https://dl.google.com/android/repository/usb_driver_r13-windows.zip?hl=tr">Buraya tıklayarak Android için sunulan resmi sürücüyü .zip dosyası olarak indiriyoruz.</a> daha sonra ise arşiv dosyamızı ayıklayıp <strong>.inf</strong> dosyamıza sağ tıklayarak &lsquo;Yükle&rsquo; seçeneğine tıklayarak sürücümüzün indirmesini bekliyoruz.İşlemler gerçekleştikten sonra bilgisayarımızı yeniden başlatıyoruz.
 Daha sonra tekrar <code>adb devices</code> komutunu giriyoruz ve onay veriyoruz.
 İzini verdikten sonra komut satırında bir kod çıkacaktır.
 Cihazı gördüğünü teyit ettikten sonra ise bu komutu yazarak işlemin bitmesini bekliyoruz.
