@@ -9,7 +9,8 @@ draft: false
 Merhaba.
 Biliyorsunuz Andoid 7 itibariyle sistem açılışında telefon uygulamalarının optimasyonunu kaldırdı.
 Aslında Android 7 ve sonrası eğer bu şartları karşılaşmamış olmanız halinde kendisi yapıyor.
-Şartlar:
+
+Gerekli Şartlar ise şunlardır:
 * Telefonunuzun şarja takılı olması gerekiyor.
 * 100% şarj durumunda olması gerekiyor.
 * Telefon açık durumda olmalı. Yani kapalı olmamalı.
