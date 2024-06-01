@@ -73,7 +73,7 @@ params:
         - name: rss
           url: "https://sxinar.github.io/index.xml"
         - name: gitlab
-          url: "https://gitlab.com/basaransemih"
+          url: "https://gitlab.com/Sxinar"
 
         
     editPost:
