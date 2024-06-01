@@ -1,5 +1,5 @@
 baseURL: "https://sxinar.github.io"
-title: "basaransemih"
+title: "Sxinar"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
 
@@ -10,7 +10,7 @@ languages:
     params:
       languageAltTitle: Turkish
       homeInfoParams:
-        Title: "basaransemih"
+        Title: "Sxinar"
         Content: Burası benim teknoloji çiftliğim.
 
 menu:
@@ -48,9 +48,9 @@ outputs:
 
 params:
     env: production
-    title: "basaransemih"
+    title: "Sxinar"
     description: "Açıklama"
-    author: Semih
+    author: Sxinar
     DateFormat: "2 January, 2006"
     defaultTheme: auto
     rss: true
@@ -71,9 +71,7 @@ params:
         - name: email
           url: "mailto:me.unreal462@simplelogin.com"
         - name: rss
-          url: "https://basaransemih.github.io/index.xml"
-        - name: spotify
-          url: "https://spotify.com/basaransemih"
+          url: "https://sxinar.github.io/index.xml"
         - name: gitlab
           url: "https://gitlab.com/basaransemih"
 
