@@ -1,7 +1,7 @@
 ---
 title: "Merhaba Dünya"
 date: 2024-07-02
-tags: ["merhaba", "ilkonu"]
+tags: ["merhaba"]
 #author: "Yazar"
 draft: false
 ---
