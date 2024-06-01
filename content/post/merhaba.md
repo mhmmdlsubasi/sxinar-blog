@@ -1,6 +1,6 @@
 ---
 title: "Merhaba Dünya"
-date: Sabitlendi
+date: 8888-07-02
 tags: ["merhaba", "ilkonu"]
 #author: "Yazar"
 draft: false
