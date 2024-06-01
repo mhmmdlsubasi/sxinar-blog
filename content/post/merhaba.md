@@ -1,12 +1,14 @@
 ---
 title: "Merhaba Dünya"
-date: 2024-07-02
+date: 2024-04-02
 tags: ["merhaba"]
-author: "Yazar"
+#author: "Yazar"
 draft: false
 ---
 
-Merhaba ben Semih Başaran burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
+Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 
-<div class="giscus">YOUR COMMENTS WILL BE PLACED INSIDE</div>
+---
+Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
+
 
