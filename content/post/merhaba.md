@@ -2,7 +2,7 @@
 title: "Merhaba Dünya"
 date: 2024-07-02
 tags: ["merhaba"]
-#author: "Yazar"
+author: "Yazar"
 draft: false
 ---
 
