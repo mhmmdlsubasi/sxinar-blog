@@ -9,11 +9,12 @@ Benimle iletişim kurmak isterseniz:</p>
 <p><em>Blog&rsquo;um, <a href="https://sxinar.github.io/index.xml">RSS</a> destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</em></p>
 <hr>
 <p>Bu site, <a href="https://gohugo.io/">Hugo</a> kullanılarak ve <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a> temasıyla oluşturulmuştur. Ayrıca bu site en güncel HUGO ve PaperMod temasını anında güncelleme desteklidir.</p>
-]]></content:encoded></item><item><title>ADB ile sistem pil optimize etme</title><link>https://sxinar.github.io/post/android-pil-optimizasyonu/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/android-pil-optimizasyonu/</guid><description>Merhaba. Biliyorsunuz Andoid 7 itibariyle sistem açılışında telefon uygulamalarının optimasyonunu kaldırdı. Aslında Android 7 ve sonrası eğer bu şartları karşılaşmamış olmanız halinde kendisi yapıyor. Şartlar:
+]]></content:encoded></item><item><title>ADB ile sistem pil optimize etme</title><link>https://sxinar.github.io/post/android-pil-optimizasyonu/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/android-pil-optimizasyonu/</guid><description>Merhaba. Biliyorsunuz Andoid 7 itibariyle sistem açılışında telefon uygulamalarının optimasyonunu kaldırdı. Aslında Android 7 ve sonrası eğer bu şartları karşılaşmamış olmanız halinde kendisi yapıyor.
+Gerekli Şartlar ise şunlardır:
 Telefonunuzun şarja takılı olması gerekiyor. 100% şarj durumunda olması gerekiyor. Telefon açık durumda olmalı. Yani kapalı olmamalı. Telefon kullanılmamalı. Telefonda aktif olarak bir işlem yapılmamalı (örnek muzik çalmamalı, video izlenmemeli) ( en az 30 dakika ) Aslında uygulama optimizasyonu pil için gerekli bir şey olduğu için ve yukarıdaki şartları karşılamayanlar için bugün ADB ile nasıl uygulama optimizasyonu yapacağınızı göstereceğim.</description><content:encoded><![CDATA[<p>Merhaba.
 Biliyorsunuz Andoid 7 itibariyle sistem açılışında telefon uygulamalarının optimasyonunu kaldırdı.
-Aslında Android 7 ve sonrası eğer bu şartları karşılaşmamış olmanız halinde kendisi yapıyor.
-Şartlar:</p>
+Aslında Android 7 ve sonrası eğer bu şartları karşılaşmamış olmanız halinde kendisi yapıyor.</p>
+<p>Gerekli Şartlar ise şunlardır:</p>
 <ul>
 <li>Telefonunuzun şarja takılı olması gerekiyor.</li>
 <li>100% şarj durumunda olması gerekiyor.</li>
