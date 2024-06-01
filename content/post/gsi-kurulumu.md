@@ -6,7 +6,7 @@ tags: ["Custom Rom", "Android"]
 draft: false
 ---
 
-Merhaba` 
+Merhaba
 
 Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan "**GSI**" nedir onu anlatacağım.
 
