@@ -1,11 +1,11 @@
 ---
 title: "Projelerim"
-date: 2024-05-03
+date: 2024-07-01
 author: "Sxinar"
-hidemeta: false
-disableShare: false
+hidemeta: true
+disableShare: true
 searchHidden: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 ---
 
 Herkese merhabalar.
