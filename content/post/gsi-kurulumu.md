@@ -1,6 +1,6 @@
 ---
 title: "GSI nedir nasıl kurulur?"
-date: 2024-06-01
+date: 2024-06-02
 tags: ["Custom Rom", "Android"]
 #author: "Yazar"
 draft: false
