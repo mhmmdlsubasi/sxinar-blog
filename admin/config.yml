@@ -1,7 +1,7 @@
 backend:
   name: sxinar.github.io
 
-site_url: https://sxinar.dev.tc
+site_url: https://sxinar.github.io
 
 publish_mode: editorial_workflow
 media_folder: assets/uploads
