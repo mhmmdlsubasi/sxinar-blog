@@ -26,19 +26,22 @@ menu:
     - identifier: İletişim
       name: İletişim
       url: /page/iletisim/
-      weight: 5
+      weight: 6
     - identifier: Kategoriler
       name: Kategoriler
       url: /tags/
       weight: 3
+      -identifier: Admin
+      url: https://prose.io/#Sxinar/sxinar.github.io/tree/main/content/post
+      weight: 4
     - identifier: Arşiv
       name: "Arşiv"
       url: /arsiv/
-      weight: 4
+      weight: 5
     - identifier: Ara
       name: "Ara \U0001f50d"
       url: /search/
-      weight: 6
+      weight: 7
 
 outputs:
     home:
