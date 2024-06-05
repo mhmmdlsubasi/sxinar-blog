@@ -31,7 +31,7 @@ menu:
       name: Kategoriler
       url: /tags/
       weight: 3
-      -identifier: Admin
+    - identifier: Admin
       url: https://prose.io/#Sxinar/sxinar.github.io/tree/main/content/post
       weight: 4
     - identifier: Arşiv
