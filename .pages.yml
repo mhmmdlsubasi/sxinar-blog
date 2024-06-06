@@ -5,7 +5,7 @@ content:
   - name: docs
     label: Documentation
     type: collection
-    path: src/docs
+    path: content/post
     filename: "{primary}.md"
     view:
       fields: [ title, order ]
