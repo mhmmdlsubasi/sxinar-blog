@@ -1,3 +1,3 @@
  <script>
         window.location.href = "https://app.pagescms.org/Sxinar/sxinar.github.io";
-    </script>
+ </script>
