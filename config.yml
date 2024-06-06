@@ -77,7 +77,7 @@ params:
 
         
     editPost:
-        URL: "https://admin.dev.tc"
+        URL: "https://sxinr.dev.tc"
         Text: "Düzenle"
         appendFilePath: true
       
