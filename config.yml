@@ -1,4 +1,4 @@
-baseURL: "https://sxinar.github.io"
+baseURL: "https://sxinar.vercel.app"
 title: "Sxinar"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
