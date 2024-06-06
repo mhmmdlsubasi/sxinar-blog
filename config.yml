@@ -77,7 +77,7 @@ params:
 
         
     editPost:
-        URL: "https://github.com/Sxinar/Sxinar.github.io/tree/main/content"
+        URL: "https://admin.dev.tc"
         Text: "Düzenle"
         appendFilePath: true
       
