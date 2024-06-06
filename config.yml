@@ -77,7 +77,7 @@ params:
 
         
     editPost:
-        URL: "https://sxinr.dev.tc"
+        URL: "https://app.pagescms.org/Sxinar/sxinar.github.io"
         Text: "Düzenle"
         appendFilePath: true
       
