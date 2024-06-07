@@ -20,6 +20,6 @@ content:
       - { name: order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
   - name: site
-    label: Site settings
+    label: Site Ayarları
     path: /config.yml
     type: file
