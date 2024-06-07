@@ -19,7 +19,7 @@ content:
       - { name: description, label: Description, type: string, options: { maxlength: 180 }}
       - { name: order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
-- name: site
+  - name: site
     label: Site settings
     path: src/_data/site.json
     type: file
