@@ -82,5 +82,5 @@ params:
         appendFilePath: true
 
 redirects = [
-  "/admin/*": "https://app.pagescms.org/Sxinar/sxinar.github.io"
+  "/admin": "https://app.pagescms.org/Sxinar/sxinar.github.io"
 ]
