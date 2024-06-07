@@ -29,7 +29,7 @@ content:
     type: file
   - name: static
     label: Statik Klasörü
-    path: /static
+    path: /static/admin.html
     type: file
     content:
   - name: page
