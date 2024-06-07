@@ -1,13 +1,8 @@
 ---
-title: "İletişim"
-date: 2024-05-03
-author: "Semih"
-hidemeta: true
-disableShare: true
-searchHidden: true
-ShowPostNavLinks: false
+title: İletişim
+description: test
+order: 4
 ---
-
 Merhaba sevgili okurum.
 Yazdıklarım hoşuna gittiyse,yazılarıma destek sunmak isterseniz,yazılarımda eksik bulduysanız,yazılarımdan size ait olanı mı buldunuz?
 O halde benimle iletişime geçebilirsiniz.
