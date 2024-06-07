@@ -23,3 +23,7 @@ content:
     label: Site Ayarları
     path: /config.yml
     type: file
+  - name: readme
+    label: README ayarlarım
+    path: /README.md
+    type: file
