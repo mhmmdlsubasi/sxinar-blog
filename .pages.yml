@@ -27,6 +27,10 @@ content:
     label: README ayarlarım
     path: /README.md
     type: file
+  - name: static
+    label: Statik Klasörü
+    path: /static
+    type: file
     content:
   - name: page
     label: Sayfa Ayarları
