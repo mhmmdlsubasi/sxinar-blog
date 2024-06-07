@@ -1,7 +1,5 @@
 ---
 title: İletişim
-description: test
-order: 4
 ---
 Merhaba sevgili okurum.
 Yazdıklarım hoşuna gittiyse,yazılarıma destek sunmak isterseniz,yazılarımda eksik bulduysanız,yazılarımdan size ait olanı mı buldunuz?
