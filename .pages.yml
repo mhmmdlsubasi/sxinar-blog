@@ -19,29 +19,7 @@ content:
       - { name: description, label: Description, type: string, options: { maxlength: 180 }}
       - { name: order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
-  - label: Home page
-    path: index.html
-    name: homepage
-    type: file
-    fields:
-      - { name: layout, type: string, hidden: true, default: layouts/base.njk }
-      - { name: title, label: Title, type: string, required: true }
-      - { name: description, label: Description, type: string }
-      - name: features
-        label: Features
-        type: object
-        fields:
-          - { name: title, label: Title, type: string }
-          - name: entries
-            label: Entries
-            type: object
-            list: true
-            fields:
-              - { name: title, label: Title, type: string }
-              - { name: description, label: Description, type: string }
-              - { name: icon, label: Icon, type: string }
-              - { name: pro, label: Pro, type: boolean }
-              - { name: soon, label: Soon, type: boolean }
+      
       - name: faq
         label: FAQ
         type: object
