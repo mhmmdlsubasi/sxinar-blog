@@ -1,6 +1,3 @@
-docs:
-  input: src/docs
-  output: /docs
 media:
   input: src/media
   output: /media
