@@ -3,7 +3,7 @@ media:
   output: /media
 content:
   - name: docs
-    label: Documentation
+    label: Yazılar
     type: collection
     path: content/post
     filename: "{primary}.md"
