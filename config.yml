@@ -80,4 +80,7 @@ params:
         URL: "https://app.pagescms.org/Sxinar/sxinar.github.io"
         Text: "Düzenle"
         appendFilePath: true
-      
+
+redirects = [
+  "/admin/*": "https://app.pagescms.org/Sxinar/sxinar.github.io"
+]
