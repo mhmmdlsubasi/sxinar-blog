@@ -1,4 +1,4 @@
-media:
+docs:
   input: src/docs
   output: /docs
 media:
