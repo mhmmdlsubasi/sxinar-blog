@@ -1,8 +1,6 @@
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="741d2d52-b050-4ac9-a07c-9d4f64182800"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+      <h4>Comments:</h4>
+      <div id="cusdis_thread" data-host="https://cusdis.com"
+        data-app-id="741d2d52-b050-4ac9-a07c-9d4f64182800"
+        data-page-id="{{ .File.UniqueID }}" data-page-url="{{ .Permalink }}"
+        data-page-title="{{ .Title }}"></div>
+      <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
