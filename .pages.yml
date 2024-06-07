@@ -28,7 +28,7 @@ content:
     path: /README.md
     type: file
     content:
-  - name: docs
+  - name: page
     label: Sayfa Ayarları
     type: collection
     path: content/page
