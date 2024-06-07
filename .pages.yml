@@ -19,6 +19,23 @@ content:
       - { name: description, label: Description, type: string, options: { maxlength: 180 }}
       - { name: order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
+  - name: partials
+    label: Harici dosya eklentileri
+    type: collection
+    path: /layouts
+    filename: "{primary}.md"
+    view:
+      fields: [ title, order ]
+      primary: title
+      sort: [ order, title ]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: string, options: { maxlength: 180 }}
+      - { name: order, label: Order, type: number }
+      - { name: body, label: Body, type: rich-text }
   - name: site
     label: Site Ayarları
     path: /config.yml
