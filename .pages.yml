@@ -20,10 +20,10 @@ content:
       - { name: order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
       
-      - name: faq
-        label: FAQ
-        type: object
-        fields:
+    - name: faq
+      label: FAQ
+      type: object
+      fields:
           - { name: title, label: Title, type: string }
           - name: entries
             label: Entries
