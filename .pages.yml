@@ -20,7 +20,7 @@ content:
       - { name: order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
   - label: Home page
-    path: config.yml
+    path: index.html
     name: homepage
     type: file
     fields:
