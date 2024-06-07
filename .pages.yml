@@ -23,7 +23,7 @@ content:
     label: Harici dosya eklentileri
     type: collection
     path: /layouts
-    filename: "{primary}.md"
+    filename: "{primary}.html"
     view:
       fields: [ title, order ]
       primary: title
