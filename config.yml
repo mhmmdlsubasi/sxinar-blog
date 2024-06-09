@@ -88,5 +88,5 @@ params:
         Text: "Düzenle"
         appendFilePath: true
  
-  assets:
-    favicon: "https://btt.community/user_avatar/btt.community/sxinar/288/7779_2.png"
+    assets:
+        favicon: "https://btt.community/user_avatar/btt.community/sxinar/288/7779_2.png"
