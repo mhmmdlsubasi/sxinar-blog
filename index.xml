@@ -290,4 +290,47 @@ Benimle iletişim kurmak isterseniz:</p>
 <p><em>Blog&rsquo;um, <a href="https://sxinar.github.io/index.xml">RSS</a> destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</em></p>
 <hr>
 <p>Bu site, <a href="https://gohugo.io/">Hugo</a> kullanılarak ve <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a> temasıyla oluşturulmuştur. Ayrıca bu site en güncel HUGO ve PaperMod temasını anında güncelleme desteklidir.</p>
+]]></content:encoded></item><item><title>TWRP derleme rehberi</title><link>https://sxinar.github.io/post/twrp-derleme-rehberi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/twrp-derleme-rehberi/</guid><description>Android cihazlar için detaylı TWRP derleme rehberimi okumaktasınız iyi okumalar</description><content:encoded><![CDATA[<ul>
+<li>
+<p>Herkese merhaba, sevgili okurlarım, bugün sizlere güncel şekilde nasıl TWRP derleneceğini anlatacağım. Umarım rehberi beğenirsiniz.</p>
+<p><strong>Yapacağınız işlemlerin sorumluluğu size aittir.</strong></p>
+<p><strong>Gereksinimler</strong>:</p>
+</li>
+<li>
+<p>100 GB depolama.</p>
+</li>
+<li>
+<p>Linux (ben Manjaro kullandım)</p>
+</li>
+<li>
+<p>Ve tabii ki de benim rehberim :)</p>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>TWRP cihaz ağacı oluşturmak aslında oldukça basittir. Piyasadaki çoğu cihazın cihaz ağacı genelde derlenmiş olarak verilir. Ancak bazı cihaz ağaçları çalışmayabilir veya sizin cihaz ağacınız bulunmayabilir. İşte cihaz ağacı oluşturma adımları:</p>
+<p><code>mkdir &lt;cihazagaci&gt;</code><br>
+<code>cd &lt;cihazagaci&gt;</code><br>
+<code>pip install twrpdtgen</code></p>
+<p>Bu aşamada stock ROM içinden <strong>recovery.img</strong> almanız gerekmektedir. <strong>recovery.img</strong>&lsquo;yi bu dizine kopyalayın ve daha sonra:</p>
+<p><code>python3 -m twrpdtgen recovery.img</code></p>
+<p>Komutunu girin. Cihaz ağacınız <code>output/&lt;marka&gt;/&lt;cihaz kod adı&gt;</code> klasörüne gelecektir.</p>
+<!-- raw HTML omitted -->
+<p>Bu adımda sağlam bir internet bağlantınızın olmasını öneririm. Uzun sürebilir.</p>
+<p>Önceki adımdan <code>cd</code> komudu ile ana dizine gelin ve daha sonra:</p>
+<p><code>mkdir twrp</code><br>
+<code>cd twrp</code><br>
+<code>repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0</code><br>
+<code>repo sync</code></p>
+<p>Komutlarını girin. Dosyaların indirilmesi dediğim gibi uzun sürebilir.</p>
+<!-- raw HTML omitted -->
+<p>Şimdi 1. adımda yaptığımız cihaz ağacını, TWRP konumuna gidip <code>device/&lt;cihaz markası&gt;/&lt;cihaz model numarası&gt;</code> konumuna kopyalayın.</p>
+<p><strong>Not: Dosyaları siz oluşturmalısınız, eğer hazır bir cihaz ağacı kullanacaksanız</strong> <code>git clone cihazagaciurl device/&lt;marka&gt;/&lt;model kodu&gt;</code> girerek indirebilirsiniz.<br>
+Bu işlemleri de tamamladığınıza göre, artık derlemeye geçebiliriz.</p>
+<p>Öncelikle <code>export ALLOW_MISSING_DEPENDENCIES=true</code> diyoruz.<br>
+Daha sonra <code>. build/envsetup.sh</code> diyoruz. Çıkan şey hata gibi gelse de değildir.<br>
+Daha sonra <code>lunch</code> komutunu giriyoruz. Ekrana birkaç tane şey gelecektir. Buradan cihaz modelinizin yanında <strong>-eng</strong> yazanı kopyalıyoruz. <strong>örnek: omni_a505f-eng</strong> gibi.<br>
+Daha sonra lunch komutunu girip yanında yapıştırın. Örnek: lunch omni_a505f-eng<br>
+Daha sonra <code>mka recoveryimage</code> komudunu giriyoruz ve derlenmesini bekliyoruz. Bittiğinde <strong>recovery. İmg</strong> sisteminizde olmalı.</p>
+<p>Artık TWRP derlendi. Cihazınız vbmeta istiyorsa, <strong>vbmeta.img</strong> ile bir ZIP&rsquo;e sıkıştırarak kurulum gerçekleştirebilirsiniz.</p>
+<p>Umarım rehber işinize yaramıştır. Tüm sorularınızı aşağıda sorabilirsiniz. İyi günler dilerim.</p>
 ]]></content:encoded></item></channel></rss>
