@@ -3,4 +3,46 @@
 Chrome tabanlı tarayıcılar için uzantıyı Chrome Web Mağazası&amp;rsquo;nı kullanarak yükleyin .
 Firefox için uzantıyı Mozilla Eklentiler sitesinden manuel olarak yüklemelisiniz.Lütfen Firefox&amp;rsquo;un bağlayıcı sürüm 8&amp;rsquo;den beri desteklendiğini unutmayın.
 Tarayıcımıza uzantımızı eklediğimize göre artık dağıtımımıza bağdaştırıcı modeli terminal aracılığıyla yükleyeceğiz.
-Arch Linux için</description></item></channel></rss>
+Arch Linux için</description><content:encoded><![CDATA[<p>Merhabalar.
+Bugün Fedora kullanırken çok işime yarayan,linux kullanımımı çok işlevsel bir hale getiren <strong>&ldquo;Gnome Eklentileri&rdquo;</strong> uygulamasını nasıl Linux dağıtımımıza ekleyeceğimizi göstereceğim.</p>
+<ul>
+<li>
+<p>Öncelikle kullanmakta olduğumuz tarayıcımıza &ldquo;Gnome Kabuk Bağlantısı&rdquo; uzantısını eklememiz gerekiyor.</p>
+<ul>
+<li>
+<p>Chrome tabanlı tarayıcılar için uzantıyı Chrome Web Mağazası&rsquo;nı kullanarak yükleyin .</p>
+</li>
+<li>
+<p>Firefox için uzantıyı Mozilla Eklentiler sitesinden manuel olarak yüklemelisiniz.Lütfen Firefox&rsquo;un bağlayıcı sürüm 8&rsquo;den beri desteklendiğini unutmayın.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Tarayıcımıza uzantımızı eklediğimize göre artık dağıtımımıza bağdaştırıcı modeli terminal aracılığıyla yükleyeceğiz.</p>
+<ul>
+<li>
+<p>Arch Linux için</p>
+<p><code>pacman -Sy gnome-tarayıcı-bağlayıcısı</code> komutunu giriyoruz terminale.</p>
+</li>
+<li>
+<p>Debian tabanlı dağıtımlar için</p>
+<p><code>sudo apt-get install chrome-gnome-shell</code> komutunu giriyoruz terminal satırına.</p>
+</li>
+<li>
+<p>Fedora tabanlı dağıtımlar için</p>
+<p><code>dnf install gnome-browser-connector</code> komutunu terminal satırına yapıştırıyoruz.</p>
+</li>
+<li>
+<p>Gentoo tabanlı dağıtımlar için</p>
+<p><code>emerge -av gnome-extra/gnome-browser-connector</code> komutunu terminal satırına yapıştırıyoruz.</p>
+</li>
+<li>
+<p>Ubuntu tabanlı dağıtımlar için</p>
+<p><code>sudo apt-get install gnome-browser-connector</code> komutunu terminal satırına yapıştırıyoruz.</p>
+<p>Daha sonra ise <a href="https://extensions.gnome.org/">Gnome eklenti Web sitesine buraya tıklayarak gidelim</a> daha sonra onay için bir pop-up çıkacak iznimizi vererdiğimize göre yazımızı sonlandırıyorum.</p>
+<p>Mutlu günler diliyorum.</p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded></item></channel></rss>

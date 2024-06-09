@@ -2,4 +2,183 @@
 Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &amp;ldquo;GSI&amp;rdquo; nedir onu anlatacağım.
 GSI nedir? GSI&amp;rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.
 GSI kurmanın en büyük 2 sebebi;
-Daha yüksek Android sürümü Ve insanların kendi arayüzlerini beğenmemesi GSI kurmanın eksileri;</description></item></channel></rss>
+Daha yüksek Android sürümü Ve insanların kendi arayüzlerini beğenmemesi GSI kurmanın eksileri;</description><content:encoded><![CDATA[<p>Merhaba</p>
+<p>Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &ldquo;<strong>GSI</strong>&rdquo; nedir onu anlatacağım.</p>
+<p>GSI nedir?
+GSI&rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.</p>
+<p>GSI kurmanın en büyük 2 sebebi;</p>
+<ul>
+<li>Daha yüksek Android sürümü</li>
+<li>Ve insanların kendi arayüzlerini beğenmemesi</li>
+</ul>
+<p>GSI kurmanın eksileri;</p>
+<ul>
+<li>Cihazın garantisi artık (var ise) sayılmaz. Zaten Bootloader kilidini açtığınız an sayılmaz.</li>
+<li>Artık cihaz kendi yazılımını kullanmaz.</li>
+<li>Düzgün çalışacağının garantisi yok.</li>
+</ul>
+<p><strong>Asla unutmayın GSI deneyseldir.</strong>
+<strong>Her GSI cihazınız ile tam uyumlu çalışmaz. Bunun asla garantisi yoktur. Sadece seçerken resmi derlemeleri seçmeye özen göstermelisiniz. Resmi olmayan derlemeleri seçerken ise tanınmış geliştiricilerin GSI larını tercih edin. Mesela AndyYan veya eremitein gibi kişilerin GSI romları</strong>.</p>
+<p>Peki hangi cihazlara kurabilirim?
+GSI Android 8 ile tanıtılmıştır. Kutudan Android 8 ve üstü ile çıkan tüm cihazlarda kullanılabilir. Ama ama eski bir sürüm ile gelen cihazlarda yükseltme yapılır ise bu mümkün olabilir (düşük ihtimal).</p>
+<p>Ama benim cihazım Android 8 ile gelmiyor&hellip;
+Bazı kişilerin Android sürümleri 8 ile gelmeyebilir. Belki 6 veya 7 ile gelmiş olabilir. Ama sonradan 8 sürümüne yükseltmiş olabilir. Cihazın destekliyip desteklemediğini anlamak için ADB kabuğunda şu komutu çalıştırın;</p>
+<p><code>adb shell getprop ro.treble.enabled</code>
+Eğer çıktı sonucu true ise cihaz Project Treble destekliyor demektir. Eğer false ise desteklemiyor demektir.
+Komut çalışmadımı? adb shell ekini kaldırın ve öyle deneyin.
+Veya Treble Info uygulamasını kurun. Aşağıda verdim.</p>
+<p>Cihazım Project Treble destekliyor. Şimdi ne yapmalıyım?
+Şimdi cihazının hangi GSI lar ile uyumlu olduğunu anlamakta. Kolayca anlamak için cihazınıza şu uygulamayı kurun; Treble Info - Apps on Google Play
+Uygulamayı açtığınız gibi karşınıza uyumluluk bilgisi gelecektir. Ama bu terimlerin anlamını açıklayayım;
+Ama iki örnek verelim; system-arm64-ab.img.xz ve system-arm32-binder64-A-Only.img.xz
+2. Kelime sonrasında (tam sona kadar değil) cihazınızın mimarisi hakkında bilgi verir. Bunlar sadece şunlar olabilir;</p>
+<ul>
+<li>arm64 - 64-bit mimari.</li>
+<li>arm32 - 32-bit mimari</li>
+</ul>
+<p>Bunlar ne yaaa?</p>
+<ul>
+<li>arm32-binder64 - 64-bit bağlayıcı. 64-bit atayıcıları olup 32-bit işlemci kullananları içindir.</li>
+<li>ab - A/B bölümlü cihazlar için. Cihazda bir tane bile A/B bölüm var ise cihaz A/B sayılır.</li>
+<li>A-Only -A-Only bölümlü cihazlar için.
+Gerisinin bir anlamı yok.
+Ama gereksinim belirlemesi bunlar ile bitmiyor. Treble Info uygulamasında ayrıntılar kısmına gidin. System-as-root (SaR) durumunu kontrol edin. A/B cihazlarda enabled (açık), A-Only cihazlarda ise disabled (kapalı) olacaktır. Kontrol etmekte fayda var. Ayrıca dinamik bölümlü olup olmadığını kontrol edin. Android 10 ve üstü gelen cihazlar da enabled diğerlerinde ise disabled olacaktır. Bu yükleme yaparken önemli olacaktır.</li>
+</ul>
+<p>Şimdi GSI seçimimizi yapalım;
+Treble Info uygulamasındaki &ldquo;İmajları Araştır&rdquo; butonuna basarak veya şu bağlantıdan; Generic System Image (GSI) list
+GSI listemize girelim. Buradan Treble Info uygulamasından aldığımız bilgilere göre GSI seçmeliyiz. Seçim size kalmış. Sayfayı ilk açtığınız zaman alt kısımda bulunan &ldquo;Legacy GSIs&rdquo; butonuna basarak diğer GSI lara bakabilirsiniz.
+<strong>NOT 1</strong>: Bazı cihazlar VNDKLİTE kullanır. Bu normal VNDK&rsquo;nın daha hafif bir varyantıdır. Uyumluluk vb den ödün verir. VNDKLİTE GSI imajları normal VNDK cihazlar ile çalışabilir. Bu Treble uygulamasında gösterilir. Dikkat ediniz.</p>
+<p><strong>NOT 2</strong>: Cihazların VNDK sürümü çok etkendir. Genelde V28 ve üstüne destek olur (9.0). Veya üstü. Ama ne ilginçtir ki bazen V29 (10) desteği olmuyor. Kaldırılıyor. V27 (8.1) sürümünde GSI çok zorludur. Çünkü eski ve destek verilmez. Çok yeni VNDK sürümleri ile de ilk başlarda sorunlar olabilir.</p>
+<p>Ya bu yazılar ne anlama geliyor???
+GSI seçtiniz ve indireceksiniz. Ama son kısımda bulunan üçlü harf diziliminden anlamadız (bvN gibi)
+Bu harflerin anlamı var.</p>
+<ul>
+<li>
+<ol>
+<li>Harf;
+Hangi cihaz bölümleri uygun olduğu hakkında bilgi verilir.</li>
+</ol>
+<ul>
+<li>a - Cihaz bölüm tibi A-Only olan cihazlar için.</li>
+<li>b - Cihaz bölüm tipi A/B olan cihazlar için.</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>Harf;
+GApss kurulu olup olmadığı hakkında bilgi verir. Zaten 3 harf kombinasyonu dışında olan ad kısmında belirtilebilir.</li>
+</ol>
+<ul>
+<li>v - Vanilla demek. Yani GApss yok. Ama bu kurulamayacağı anlamına gelmez.</li>
+<li>g - GApss kurulu demek.</li>
+<li>o - GApss kurulu demek. Ama Android Go uygulamaları.</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>Harf;
+GSI imajında ROOT olup olmadığı hakkında bilgi. Eğer ROOT lu bir imaj kurarasanız, cihaza ROOT erişimi vermiş olursunuz.</li>
+</ol>
+<ul>
+<li>N - No Su. Yani ROOT yok.</li>
+<li>S - Su. Yani ROOT var. PHH Super user ile. İnternetten uygulamasını kurarsanız yönetebilirsiniz. Ama PHH Super user pek güzel değil. Önermem.</li>
+<li>Z - eremitein in dinamik süper kullanıcılısı. Bu root var demek. Ama daha önce test etmedim.</li>
+</ul>
+</li>
+</ul>
+<p>Bunlar bu kadardı. İmajı indirin <strong>.XZ</strong> arşivinde olacaktır. Ayıklayın. Ve çıkan imaj adını system.img olarak yeniden adlandırın. Ve boyutu not alın. Çünkü gerekli olacak.
+<strong>NOT</strong>: Eğer GSI boyutu sistem bölüm boyutundan fazla ise Android 10 altı ile gelen cihazlarda yüklenemez! Ama 10 üstünde bu mümkün.</p>
+<p>Sistem bölüm boyutunu nasıl kontrol ederim?</p>
+<ul>
+<li>Cihazın Stock ROM unu indirin. ROM daki system bölüm boyutunu kontrol edin.</li>
+<li>TWRP ile kontrol edin.</li>
+<li>Sanırım bunun için bir ADB komutu vardı. Ama şuan hatırlamıyorum.</li>
+</ul>
+<p>GSI kurulumu için gereksinimler;</p>
+<ul>
+<li>Bilgisayar</li>
+<li>Bilgisayarı olmayanlar Bugjaeger android uygulaması.</li>
+<li>Bugjaeger kullanacaklar için OTG kablosu.</li>
+<li>Bilgisayar kullanacaklar için Platform Tools ve USB sürücüleri.</li>
+<li>Cihazın bootloader kilidi açık olmalı.</li>
+</ul>
+<p>Cihazda yapılması gereken ufak bir ayar;</p>
+<ul>
+<li>USB hata ayıklamayı açın. Ayrıca eğer komutları çalıştırırken Bugjaeger kullanacak ise niz komutları vereceğiniz cihazında USB hata ayıklaması aktifleştirilmelidir.</li>
+</ul>
+<p>Artık kuruluma geçelim;
+Hem Android 10 ve üstü ile gelen cihazlar için hemde Android 10 altı ile gelen cihazlar için talimat vereceğim. Ayrıca TWRP ile yükleme. Ama fastboot (10 üstü fastbootd) kullanmanızı öneririm.
+NOT: Bu işlemleri yapmadan önce bootloader kilidini açmayı unutmayın
+NOT 2: Eğer cihazda AVB / Dm-verity aktif ise önce devre dışı bırakın.</p>
+<p>Android 10 altı ile gelen cihazlar;
+<strong>NOT</strong>: Bugjaeger kullanacak olanlar fastboot komutlarını ⚡ kısmından yapmalı :D</p>
+<p>İlk olarak <strong>Cihazı fastboot moda alın.</strong></p>
+<ul>
+<li><code>adb reboot bootloader</code></li>
+</ul>
+<p>Sistemi silin</p>
+<ul>
+<li><code>fastboot erase system</code></li>
+</ul>
+<p>GSI flaşlayın</p>
+<ul>
+<li><code>fastboot flash system &lt;dosya_yolu&gt;</code></li>
+</ul>
+<p>Cihazı sıfırlayın. Data ve metadata</p>
+<ul>
+<li><code>fastboot -w</code>
+Veya</li>
+<li><code>fastboot erase userdata</code></li>
+<li><code>fastboot erase metadata</code></li>
+</ul>
+<p>Cihazı yeniden başlatın.</p>
+<ul>
+<li><code>fastboot reboot</code></li>
+</ul>
+<p><strong>Android 10 üstü ile gelen dinamik bölümlü cihazlar;</strong>
+NOT: Bugjaeger kullanacak olanlar fastboot komutlarını ⚡ kısmından yapmalı :D</p>
+<p>Cihazı fastboot moda alın</p>
+<ul>
+<li><code>adb reboot bootloader</code></li>
+</ul>
+<p>Cihazı fastbootd moda alın</p>
+<ul>
+<li><code>fastboot reboot fastboot</code></li>
+</ul>
+<p>Eğer cihazınıza kuracağınız GSI boyutu sistem bölüm boyutundan fazla ise şu komutları çalıştırın;</p>
+<p>Product bölümünü temizleyin</p>
+<ul>
+<li><code>fastboot erase product</code></li>
+</ul>
+<p><strong>Başarılı olur ise yüklemeye geçin.</strong></p>
+<p>Sistemi silin</p>
+<ul>
+<li><code>fastboot erase system</code></li>
+</ul>
+<p>GSI flaşlayın</p>
+<ul>
+<li><code>fastboot flash system &lt;dosya_yolu&gt;</code></li>
+</ul>
+<p>Cihazı sıfırlayın. Data ve metadata</p>
+<ul>
+<li>
+<p><code>fastboot -w</code>
+Veya</p>
+</li>
+<li>
+<p><code>fastboot erase userdata</code></p>
+</li>
+<li>
+<p><code>fastboot erase metadata</code></p>
+<p>Cihazı yeniden başlatın.</p>
+</li>
+<li>
+<p><code>fastboot reboot</code></p>
+</li>
+</ul>
+<p>TWRP ile nasıl yükleyebilirim [<strong>önermem</strong>];
+İndirdiğiniz xz dosyasını ayıklayın. Adını system.img olarak değiştirin (zorunlu değil). Cihazı recovery moda alın. Wipe&gt; Advanced Wipe kısmına gelin. Sistem i seçin ve temizleyin. İşlem bitince, yükle kısmına gelin. İmaj yüklemeye tıklayın. GSI imajinı seçin. Size hangi bölüme yazma olacağını seçmenizi ister, Sistem i seçin. İşlem bitince yeniden Advanced Wipe kısmına gelin. Dalvik/ART Önbelleği, Veri, Önbellek ve isteğe bağlı dahili depolamayı seçin ve temizleyin. Eğer isterseniz (vanilla GSI lar için) GApps kurulumunu yapın. Cihazı yeniden başlatın.</p>
+<p>Eğer sorunlar olur ise bazıları için çözümler tabii ki de var. Ama bazılarında maalesef.</p>
+<p>Sorumluluk kabul etmem. Her şeyden yapan kişi sorumludur.</p>
+<p>Mutlu günler.</p>
+]]></content:encoded></item></channel></rss>
