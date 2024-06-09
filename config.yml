@@ -60,6 +60,7 @@ params:
     rss: true
     ShowFullTextinRSS: true
     TocOpen: true
+    ShowCodeCopyButtons: true
     comments: true
     fuseOpts:
     isCaseSensitive: false
