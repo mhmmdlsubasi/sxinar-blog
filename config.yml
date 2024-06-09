@@ -48,6 +48,7 @@ outputs:
 
 params:
     ShowShareButtons: true
+    ShowReadingTime: true
     env: production
     title: "Sxinar"
     description: "Açıklama"
