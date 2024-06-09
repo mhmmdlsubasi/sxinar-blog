@@ -37,7 +37,7 @@ menu:
       weight: 5
     - identifier: Ara
       name: "Ara \U0001f50d"
-      url: /search/
+      url: /ara/
       weight: 7
 
 outputs:
