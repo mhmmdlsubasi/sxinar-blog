@@ -71,7 +71,7 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
   assets:
-    favicon: "<link / absolute url>"
+    favicon: "https://btt.community/user_avatar/btt.community/sxinar/288/7779_2.png"
     favicon16x16: "<link / absolute url>"
     favicon32x32: "<link / absolute url>"
     apple_touch_icon: "<link / absolute url>"
