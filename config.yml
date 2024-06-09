@@ -50,6 +50,7 @@ params:
     ShowShareButtons: true
     ShowReadingTime: true
     env: production
+    ShowBreadCrumbs: true
     title: "Sxinar"
     description: "Açıklama"
     author: Sxinar
