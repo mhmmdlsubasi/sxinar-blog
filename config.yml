@@ -47,6 +47,7 @@ outputs:
         - JSON
 
 params:
+    ShowShareButtons: true
     env: production
     title: "Sxinar"
     description: "Açıklama"
