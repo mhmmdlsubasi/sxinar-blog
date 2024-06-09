@@ -70,6 +70,12 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+  assets:
+    favicon: "<link / absolute url>"
+    favicon16x16: "<link / absolute url>"
+    favicon32x32: "<link / absolute url>"
+    apple_touch_icon: "<link / absolute url>"
+    safari_pinned_tab: "<link / absolute url>"
 
     socialIcons:
         - name: github
