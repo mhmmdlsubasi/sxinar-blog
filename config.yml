@@ -57,6 +57,7 @@ params:
     defaultTheme: auto
     rss: true
     ShowFullTextinRSS: true
+    TocOpen: true
     comments: true
     fuseOpts:
     isCaseSensitive: false
