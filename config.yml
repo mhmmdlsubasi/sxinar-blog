@@ -84,7 +84,7 @@ params:
 
         
     editPost:
-        URL: "https://github.com/Sxinar/sxinar.github.io/content/post"
+    URL: "https://github.com/wiseweb-works/blog/tree/master/content"
         Text: "Düzenle"
         appendFilePath: true
  
