@@ -81,12 +81,11 @@ params:
           url: "https://sxinar.github.io/index.xml"
         - name: gitlab
           url: "https://gitlab.com/Sxinar"
-
-        
-    editPost:
-    URL: "https://github.com/Sxinar/sxinar.github.io/tree/main/content"
-        Text: "Düzenle"
-        appendFilePath: true
  
     assets:
         favicon: "https://btt.community/user_avatar/btt.community/sxinar/288/7779_2.png"
+
+    editPost:
+        URL: "https://github.com/sxinar/sxinar.github.io/tree/main/content"
+        Text: "Suggest Changes"
+        appendFilePath: true
