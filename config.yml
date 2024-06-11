@@ -1,4 +1,4 @@
-baseURL: "https://sxinar.github.io/"
+baseURL: "https://sxinar.github.io"
 title: "Sxinar"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
@@ -87,5 +87,5 @@ params:
 
     editPost:
         URL: "https://github.com/sxinar/sxinar.github.io/tree/main/content"
-        Text: "Suggest Changes"
+        Text: "Düzenle"
         appendFilePath: true
