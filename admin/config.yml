@@ -4,6 +4,8 @@ backend:
   name: bitbucket
   repo: sxinar/sxinar.github.io
   branch: main
+  auth_type: implicit
+  app_id: XJckEf9THrqdJp5xkb
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
 collections:
