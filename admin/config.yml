@@ -1,11 +1,13 @@
 #static/admin/config.yml
 
 backend:
-  name: bitbucket
-  repo: sxinar/sxinar.github.io
-  branch: main
-  auth_type: implicit
-  app_id: XJckEf9THrqdJp5xkb
+  name: gitlab
+  repo: owner-name/repo-name # Path to your GitLab repository
+  auth_type: implicit # Required for implicit grant
+  app_id: your-app-id # Application ID from your GitLab settings
+  api_root: https://my-hosted-gitlab-instance.com/api/v4
+  base_url: https://my-hosted-gitlab-instance.com
+  auth_endpoint: oauth/authorize
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
 collections:
