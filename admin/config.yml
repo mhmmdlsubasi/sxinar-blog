@@ -1,7 +1,8 @@
 #static/admin/config.yml
 
 backend:
-  name: git-gateway
+  name: bitbucket
+  repo: sxinar/sxinar.github.io
   branch: main
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
