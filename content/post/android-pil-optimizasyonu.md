@@ -5,6 +5,7 @@ date: 2024-05-01
 tags: ["android", "pil-optimize"]
 #author: "Yazar"
 draft: false
+sss: true
 ---
 Merhaba.
 Biliyorsunuz Andoid 7 itibariyle sistem açılışında telefon uygulamalarının optimasyonunu kaldırdı.
