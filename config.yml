@@ -41,7 +41,7 @@ menu:
       weight: 7
     - identifier: FAQ
       name: "FAQ"
-      url: /faq/
+      url: /post/faq/
       weight: 8
 
 outputs:
