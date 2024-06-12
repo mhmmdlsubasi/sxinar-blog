@@ -40,8 +40,9 @@ menu:
       url: /ara/
       weight: 7
     -identifier: FAQ
-     name: "FAQ"
-     weight: 8
+      name: "FAQ"
+      url: /faq/
+      weight: 8
 
 outputs:
     home:
