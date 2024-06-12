@@ -1,11 +1,11 @@
-Album 
+Albüm 
 {{< spotify type="album" id="6bQkurEvgWIUUvKeqaJRq2" >}}
 
-Track
+Şarkı 
 {{< spotify type="track" id="3dsz3hT88uR2RJhtegnilY" >}}
 
-Artist
+Sanatçı
 {{< spotify type="artist" id="00FQb4jTyendYWaN8pK0wa" >}}
 
-Playlist 
+Oynatma Listesi
 {{< spotify type="playlist" id="37i9dQZF1DX6dvuioZhoLo" >}}
