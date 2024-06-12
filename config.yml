@@ -39,7 +39,7 @@ menu:
       name: "Ara \U0001f50d"
       url: /ara/
       weight: 7
-    -identifier: FAQ
+    - identifier: FAQ
       name: "FAQ"
       url: /faq/
       weight: 8
