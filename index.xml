@@ -11,6 +11,17 @@ Cevap: Hugo&amp;rsquo;yu kullanarak site oluşturmak için öncelikle Hugo&amp;r
 <h2 id="soru-2">Soru 2</h2>
 <p><strong>Soru:</strong> Hugo ile nasıl site oluşturabilirim?<br>
 <strong>Cevap:</strong> Hugo&rsquo;yu kullanarak site oluşturmak için öncelikle Hugo&rsquo;yu bilgisayarınıza kurmanız ve bir proje oluşturmanız gerekir.</p>
+
+
+
+<iframe src="https://open.spotify.com/embed/track/3dsz3hT88uR2RJhtegnilY"
+    width="100%"
+    height="380"
+    frameborder="0"
+    allowtransparency="true"
+    allow="encrypted-media"></iframe>
+
+
 ]]></content:encoded></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxinar.github.io/post/gsi-kurulumu/</link><pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/gsi-kurulumu/</guid><description>Merhaba
 Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &amp;ldquo;GSI&amp;rdquo; nedir onu anlatacağım.
 GSI nedir? GSI&amp;rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.
