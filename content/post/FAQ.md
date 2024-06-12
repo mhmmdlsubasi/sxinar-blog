@@ -13,3 +13,5 @@ show meta: false
 ## Soru 2
 **Soru:** Hugo ile nasıl site oluşturabilirim?  
 **Cevap:** Hugo'yu kullanarak site oluşturmak için öncelikle Hugo'yu bilgisayarınıza kurmanız ve bir proje oluşturmanız gerekir.
+
+{{< spotify type="track" id="3dsz3hT88uR2RJhtegnilY" >}}
