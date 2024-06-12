@@ -1,1 +1,4 @@
+<head>
 <meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+  {{ if .Site.Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}
+<head>
