@@ -50,6 +50,7 @@ params:
     ShowShareButtons: true
     ShowReadingTime: true
     env: production
+    gtm_id: "S2ZEZQCLP9"
     ShowBreadCrumbs: true
     title: "Sxinar"
     description: "Açıklama"
