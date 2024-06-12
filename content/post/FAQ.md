@@ -3,6 +3,7 @@ title: "Sıkça Sorulan Sorular"
 date: 2024-06-12T12:00:00+02:00
 draft: false
 type: "faq"
+show meta: false
 ---
 
 ## Soru 1
