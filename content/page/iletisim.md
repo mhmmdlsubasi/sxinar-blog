@@ -9,7 +9,7 @@ Benimle iletişim kurmak isterseniz:
 **e-posta** me.unreal462@simplelogin.com
 Veya 
 
-{{< cta-button “düğme metni” “[düğme bağlantısı](https://sxinar.github.io/chat#max-widget)” >}}
+{{< cta “düğme metni” “[düğme bağlantısı](https://sxinar.github.io/chat#max-widget)” >}}
 
 *Blog'um, [RSS](https://sxinar.github.io/index.xml) destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.*
 
