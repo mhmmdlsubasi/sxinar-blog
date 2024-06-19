@@ -9,7 +9,8 @@ Benimle iletişim kurmak isterseniz:
 **e-posta** me.unreal462@simplelogin.com
 Veya 
 
-{{< button icon="fab fa-google" href="https://google.com" >}}take me to Google{{< /button >}}
+<button type="button">Bu Bir Butondur</button>
+
 
 
 *Blog'um, [RSS](https://sxinar.github.io/index.xml) destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.*
