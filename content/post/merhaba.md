@@ -13,3 +13,6 @@ Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link a
 Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
 
 
+{{< notice warning >}}
+This is a warning notice. Be warned!
+{{< /notice >}}
