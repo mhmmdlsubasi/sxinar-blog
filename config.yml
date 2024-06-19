@@ -31,7 +31,7 @@ menu:
       name: Mesaj bırak
       url: /chat
       weight: 1
-      parent: İletişim
+      parent: "İletişim"
     - identifier: Kategoriler
       name: Kategoriler
       url: /tags/
