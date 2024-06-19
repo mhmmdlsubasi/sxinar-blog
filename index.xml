@@ -281,21 +281,15 @@ Komutlarını komut satırına girin.</p>
 Mutlu günler :)</p>
 ]]></content:encoded></item><item><title>İletişim</title><link>https://sxinar.github.io/page/iletisim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/page/iletisim/</guid><description>Merhaba sevgili okurum. Yazdıklarım hoşuna gittiyse,yazılarıma destek sunmak isterseniz,yazılarımda eksik bulduysanız,yazılarımdan size ait olanı mı buldunuz? O halde benimle iletişime geçebilirsiniz. Benimle iletişim kurmak isterseniz:
 e-posta me.unreal462@simplelogin.com Veya
-Sign up for free! Blog&amp;rsquo;um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
+Hello world
+Blog&amp;rsquo;um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
 Bu site, Hugo kullanılarak ve PaperMod temasıyla oluşturulmuştur. Ayrıca bu site en güncel HUGO ve PaperMod temasını anında güncelleme desteklidir.</description><content:encoded><![CDATA[<p>Merhaba sevgili okurum.
 Yazdıklarım hoşuna gittiyse,yazılarıma destek sunmak isterseniz,yazılarımda eksik bulduysanız,yazılarımdan size ait olanı mı buldunuz?
 O halde benimle iletişime geçebilirsiniz.
 Benimle iletişim kurmak isterseniz:</p>
 <p><strong>e-posta</strong> <a href="mailto:me.unreal462@simplelogin.com">me.unreal462@simplelogin.com</a>
 Veya</p>
-<div class="cta">
-    <a href="https://sxinar.github.io/chat#max-widget">
-    <button>
-         Sign up for free!
-    </button>
-    </a>
-</div>
-
+<p><!-- raw HTML omitted --> Hello world<!-- raw HTML omitted --></p>
 <p><em>Blog&rsquo;um, <a href="https://sxinar.github.io/index.xml">RSS</a> destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</em></p>
 <hr>
 <p>Bu site, <a href="https://gohugo.io/">Hugo</a> kullanılarak ve <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a> temasıyla oluşturulmuştur. Ayrıca bu site en güncel HUGO ve PaperMod temasını anında güncelleme desteklidir.</p>
