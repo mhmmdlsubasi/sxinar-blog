@@ -1,7 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxinar.github.io/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.127.0</generator><language>tr</language><lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxinar.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxinar.github.io/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/merhaba/</guid><description>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
-Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</description><content:encoded><![CDATA[<p>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.</p>
+Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
+This is a warning notice. Be warned!</description><content:encoded><![CDATA[<p>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.</p>
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
+<style type="text/css">
+     
+    .notice {
+        --title-color: #fff;
+        --title-background-color: #6be;
+        --content-color: #444;
+        --content-background-color: #e7f2fa;
+    }
+
+    .notice.info {
+        --title-background-color: #fb7;
+        --content-background-color: #fec;
+    }
+
+    .notice.tip {
+        --title-background-color: #5a5;
+        --content-background-color: #efe;
+    }
+
+    .notice.warning {
+        --title-background-color: #c33;
+        --content-background-color: #fee;
+    }
+
+     
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --title-color: #fff;
+            --title-background-color: #069;
+            --content-color: #ddd;
+            --content-background-color: #023;
+        }
+
+        .notice.info {
+            --title-background-color: #a50;
+            --content-background-color: #420;
+        }
+
+        .notice.tip {
+            --title-background-color: #363;
+            --content-background-color: #121;
+        }
+
+        .notice.warning {
+            --title-background-color: #800;
+            --content-background-color: #400;
+        }
+    }
+
+    body.dark .notice {
+        --title-color: #fff;
+        --title-background-color: #069;
+        --content-color: #ddd;
+        --content-background-color: #023;
+    }
+
+    body.dark .notice.info {
+        --title-background-color: #a50;
+        --content-background-color: #420;
+    }
+
+    body.dark .notice.tip {
+        --title-background-color: #363;
+        --content-background-color: #121;
+    }
+
+    body.dark .notice.warning {
+        --title-background-color: #800;
+        --content-background-color: #400;
+    }
+
+     
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--content-color);
+        background: var(--content-background-color);
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+     
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background-color);
+    }
+
+     
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px;
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor;
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative;
+    }
+</style><div class="notice warning" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span></p><p>This is a warning notice. Be warned!</p></div>
+
 ]]></content:encoded></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxinar.github.io/post/gsi-kurulumu/</link><pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/gsi-kurulumu/</guid><description>Merhaba
 Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &amp;ldquo;GSI&amp;rdquo; nedir onu anlatacağım.
 GSI nedir? GSI&amp;rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.
