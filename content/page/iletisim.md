@@ -9,7 +9,7 @@ Benimle iletişim kurmak isterseniz:
 **e-posta** me.unreal462@simplelogin.com
 Veya 
 
-{{% cta icon="fab fa-google" href="https://google.com" %}}take me to Google{{% /w3-button-icon %}}
+{{% w3-button-icon  %}}Hello world{{% /w3-button-icon %}}
 
 *Blog'um, [RSS](https://sxinar.github.io/index.xml) destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.*
 
