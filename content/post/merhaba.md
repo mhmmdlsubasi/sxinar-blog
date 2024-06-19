@@ -7,12 +7,13 @@ draft: false
 weight: 1
 ---
 
+{{< notice warning >}}
+Bu bir tanıtım yazısıdır sıkıcı olabilir
+{{< /notice >}}
+
+
 Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 
 ---
 Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
 
-
-{{< notice warning >}}
-This is a warning notice. Be warned!
-{{< /notice >}}
