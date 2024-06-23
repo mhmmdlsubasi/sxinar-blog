@@ -50,6 +50,8 @@ Say say bitmez!
 
 # **Uygulamadan görüntüler**
 
+# ![](/media/Screenshot_2024-06-23-08-22-48-137_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-22-57-859_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-23-02-862_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-23-24-458_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-23-41-969_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-23-46-678_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-23-51-271_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-23-55-523_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-24-03-432_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-24-11-006_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-24-21-366_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-24-31-444_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-24-41-779_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-24-45-004_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-24-48-830_de.danoeh.antennapod.jpg)![](/media/Screenshot_2024-06-23-08-25-07-545_de.danoeh.antennapod.jpg)
+
 Beğendiniz mi?
 
 Katkıda payınız olsun!
