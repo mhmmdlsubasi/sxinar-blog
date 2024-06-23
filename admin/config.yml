@@ -11,7 +11,7 @@ public_folder: "images"
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/post
     label: "Posts" # Used in the UI
-    folder: "content/posts" # The path to the folder where the documents are stored
+    folder: "content/post" # The path to the folder where the documents are stored
     path: "{{slug}}/index"
     media_folder: "" # Save images in the post's own folder instead of the static folder
     public_folder: ""
