@@ -401,8 +401,9 @@ Komutlarını komut satırına girin.</p>
 <p>Eğer Android 10 ve üzeri kullanıyorsanız işlem bitdiğinde success yazısı çıkacaktır. Android 7-9 sürümlerindeyse işlem bitince komut penceresinde yeni satıra gecilecektir. Oradan işlemin bitdiğini anlayabilirsiniz. Bu işlemi yeni ROM kurdukdan sonra veya romunuzu güncelledikden sonra (örnek haftalık ROM&rsquo;lar kullanıyorsanız her hafta yeni güncellemeden sonra bu işlemi yapın) yapmanız önerilir. TWRP üzerinden Wipe/Cache ve Wipe/Dalvik yaptıkdan sonra da bu işlemi yapmanız önerilir. Uygulamalarınız güncellemeden sonra yavaş açılıyorsa, bu işlemi yapmanız cihaza iyi gelecektir.
 Mutlu günler :)</p>
 ]]></content:encoded></item><item><title/><link>https://sxinar.github.io/tan%C4%B1t%C4%B1m/program-tanitim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/tan%C4%B1t%C4%B1m/program-tanitim/</guid><description/></item><item><title>Haftanın yazılımı:AntennaPOD</title><link>https://sxinar.github.io/tan%C4%B1t%C4%B1m/haftanin-yazilimiantennapod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/tan%C4%B1t%C4%B1m/haftanin-yazilimiantennapod/</guid><description>İşlevselliği ve gizliliği ile tanınan tamamen açık kaynaklı Podcast dinleme programı</description><content:encoded><![CDATA[<p><strong>Herkese merhaba.</strong></p>
-<p><img loading="lazy" src="/media/indir.jpeg" alt=""  />
-</p>
+<h1 id="mediatestpngmediaindirjpeg"><img loading="lazy" src="/media/test.png" alt=""  />
+<img loading="lazy" src="/media/indir.jpeg" alt=""  />
+</h1>
 <p>Bugün sizler ile çevirisine katkım bulunan tüm dünyanın kullanmasını istediğim bir yazılımı &ldquo;AntennaPod&rdquo; uygulamasını tanıtacağım.</p>
 <ul>
 <li><strong>AntennaPod tamamen ücretsiz ve gizliliğinize saygılı bir podcast oynatıcısıdır. Dünyanın her yerindeki gönüllüler tarafından herhangi bir ticari çıkar olmaksızın yaratılmıştır. Birlikte açık bir podcasting ekosistemine katkıda bulunuyoruz. Böylece web&rsquo;in en iyi ses içeriğinin keyfini çıkarabilirsiniz.</strong></li>
