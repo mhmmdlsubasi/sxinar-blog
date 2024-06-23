@@ -400,7 +400,59 @@ Cihazı gördüğünü teyit ettikten sonra ise bu komutu yazarak işlemin bitme
 Komutlarını komut satırına girin.</p>
 <p>Eğer Android 10 ve üzeri kullanıyorsanız işlem bitdiğinde success yazısı çıkacaktır. Android 7-9 sürümlerindeyse işlem bitince komut penceresinde yeni satıra gecilecektir. Oradan işlemin bitdiğini anlayabilirsiniz. Bu işlemi yeni ROM kurdukdan sonra veya romunuzu güncelledikden sonra (örnek haftalık ROM&rsquo;lar kullanıyorsanız her hafta yeni güncellemeden sonra bu işlemi yapın) yapmanız önerilir. TWRP üzerinden Wipe/Cache ve Wipe/Dalvik yaptıkdan sonra da bu işlemi yapmanız önerilir. Uygulamalarınız güncellemeden sonra yavaş açılıyorsa, bu işlemi yapmanız cihaza iyi gelecektir.
 Mutlu günler :)</p>
-]]></content:encoded></item><item><title/><link>https://sxinar.github.io/tan%C4%B1t%C4%B1m/program-tanitim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/tan%C4%B1t%C4%B1m/program-tanitim/</guid><description/></item><item><title>İletişim</title><link>https://sxinar.github.io/page/iletisim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/page/iletisim/</guid><description>Merhaba sevgili okurum. Yazdıklarım hoşuna gittiyse,yazılarıma destek sunmak isterseniz,yazılarımda eksik bulduysanız,yazılarımdan size ait olanı mı buldunuz? O halde benimle iletişime geçebilirsiniz. Benimle iletişim kurmak isterseniz:
+]]></content:encoded></item><item><title/><link>https://sxinar.github.io/tan%C4%B1t%C4%B1m/program-tanitim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/tan%C4%B1t%C4%B1m/program-tanitim/</guid><description/></item><item><title>Haftanın yazılımı:AntennaPOD</title><link>https://sxinar.github.io/tan%C4%B1t%C4%B1m/haftanin-yazilimiantennapod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/tan%C4%B1t%C4%B1m/haftanin-yazilimiantennapod/</guid><description>İşlevselliği ve gizliliği ile tanınan tamamen açık kaynaklı Podcast dinleme programı</description><content:encoded><![CDATA[<p><strong>Herkese merhaba.</strong></p>
+<p><img loading="lazy" src="/media/indir.jpeg" alt=""  />
+</p>
+<p>Bugün sizler ile çevirisine katkım bulunan tüm dünyanın kullanmasını istediğim bir yazılımı &ldquo;AntennaPod&rdquo; uygulamasını tanıtacağım.</p>
+<ul>
+<li><strong>AntennaPod tamamen ücretsiz ve gizliliğinize saygılı bir podcast oynatıcısıdır. Dünyanın her yerindeki gönüllüler tarafından herhangi bir ticari çıkar olmaksızın yaratılmıştır. Birlikte açık bir podcasting ekosistemine katkıda bulunuyoruz. Böylece web&rsquo;in en iyi ses içeriğinin keyfini çıkarabilirsiniz.</strong></li>
+</ul>
+<p>Gönüllülük esaslı çalışıldığı için herhangi bir giderleri olmuyor tek kazançları ise kullanıcılar tarafından bağışlanan ücretler.</p>
+<p>Kullanımı çok basit olabildiğince karmaşıklıkardan kaçırılmış.</p>
+<p>AntennaPod ekibinin dilinden:</p>
+<blockquote>
+<p>AntennaPod&rsquo;un kullanımının basit olmasını ve aynı zamanda dinleme deneyiminiz üzerinde tam kontrol sahibi olmanızı istiyoruz.</p>
+</blockquote>
+<ul>
+<li><strong>Açık Kaynak ve reklamsız</strong></li>
+</ul>
+<p>Firefox ve Signal gibi diğer harika yazılımlar gibi AntennaPod da açık kaynaktır. Bu, herkesin uygulamanın arkasındaki kodu inceleyip katkıda bulunabileceği anlamına gelir. Ve bu AntennaPod, açık kaynak ve gizlilik dostu <a href="https://www.f-droid.org/packages/de.danoeh.antennapod/">F-Droid uygulama mağazasında</a> mevcuttur .</p>
+<p>Bu şekilde, hiçbir şüpheli veri toplama işlemi olmadığından emin olabilirsiniz (veya kendiniz kontrol edebilirsiniz). AntennaPod gönüllüler tarafından oluşturulduğu için uygulamada gezinirken sizi rahatsız eden reklamverenlere ihtiyacımız yok.</p>
+<p>Ayrıca ekosisteme de önem veriyor AntennaPod ekibi.</p>
+<blockquote>
+<p>Açık bir podcasting ekosisteminden yanayız. Bir ekosistem ki</p>
+</blockquote>
+<ul>
+<li>
+<p>özgür konuşmayı destekler,</p>
+</li>
+<li>
+<p>Podcast yayıncılarını yaratıcı çalışmaları için ödüllendiriyor,</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Closed_platform">dinleyicileri duvarlarla çevrili bahçelerdeki</a> erişilemez içeriklerden kurtarır ve</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Vendor_lock-in">kullanıcıların satıcıya bağımlı</a> kalmadan uygulamaları kullanmasına ve uygulamalar arasında geçiş yapmasına olanak tanır .</p>
+</li>
+</ul>
+<p>Pratikte bu, mevcut herhangi bir RSS beslemesine abone olabileceğiniz, podcast yayıncılarını (mali olarak) desteklemenizi kolaylaştırdığımız ve verilerinizi senkronize edebileceğiniz, içe ve dışa aktarabileceğiniz anlamına gelir.</p>
+<p>Ayrıca senkronizasyon da yapabiliyoruz.</p>
+<p>Sadece podcast değil RSS okuyucu olarak da kullanabilirsiniz.</p>
+<p>Say say bitmez!</p>
+<h1 id="uygulamadan-görüntüler"><strong>Uygulamadan görüntüler</strong></h1>
+<p>Beğendiniz mi?</p>
+<p>Katkıda payınız olsun!</p>
+<p><a href="https://antennapod.org/contribute/">https://antennapod.org/contribute/</a>her alanda AntennaPod kendine gönüllü geliştiriciler arıyor.</p>
+<p><a href="https://github.com/Sxinar/AntennaPod_Turkce">Türkçe (tamamen değil) proje adresi</a></p>
+<p><a href="https://antennapod.org/">Resmi proje web sitesi</a></p>
+<p><a href="https://forum.antennapod.org/">Resmi proje forum adresi</a></p>
+<p><a href="https://antennapod.org/documentation/">Dokümantasyon</a></p>
+<p><a href="https://antennapod.org/download/">İndirin!</a></p>
+<p>Web sitesini Türkçe&rsquo;ye kavuşturmak için çeviriye son hızla devam ediyorum.</p>
+<p><strong>Bütün proje için AntennaPod ekibine Teşekkürler!</strong></p>
+<p>İyi Podcast dinlemeler!</p>
+]]></content:encoded></item><item><title>İletişim</title><link>https://sxinar.github.io/page/iletisim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/page/iletisim/</guid><description>Merhaba sevgili okurum. Yazdıklarım hoşuna gittiyse,yazılarıma destek sunmak isterseniz,yazılarımda eksik bulduysanız,yazılarımdan size ait olanı mı buldunuz? O halde benimle iletişime geçebilirsiniz. Benimle iletişim kurmak isterseniz:
 e-posta me.unreal462@simplelogin.com Veya
 Bu Bir Butondur
 Blog&amp;rsquo;um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
