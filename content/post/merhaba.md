@@ -11,7 +11,7 @@ weight: 1
 Bu bir tanıtım yazısıdır sıkıcı olabilir
 {{< /notice >}}
 
-
+# test
 Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 
 ---
