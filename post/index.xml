@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxinar.github.io/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.127.0</generator><language>tr</language><lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxinar.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxinar.github.io/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/merhaba/</guid><description>Bu bir tanıtım yazısıdır sıkıcı olabilir
-test Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
-Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</description><content:encoded><![CDATA[<style type="text/css">
+1. Crowdsec IPS/IDS Yazılımı Tanıtımı Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
+2. Crowdsec IPS/IDS Yazılımı Tanıtımı fhjccb Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</description><content:encoded><![CDATA[<style type="text/css">
      
     .notice {
         --title-color: #fff;
@@ -120,9 +120,10 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
             
         </span></p><p>Bu bir tanıtım yazısıdır sıkıcı olabilir</p></div>
 
-<h1 id="test">test</h1>
+<h1 id="1-crowdsec-ipsids-yazılımı-tanıtımı">1. Crowdsec IPS/IDS Yazılımı Tanıtımı</h1>
 <p>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.</p>
-<hr>
+<h2 id="2-crowdsec-ipsids-yazılımı-tanıtımı">2. Crowdsec IPS/IDS Yazılımı Tanıtımı</h2>
+<h2 id="fhjccb">fhjccb</h2>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
 ]]></content:encoded></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxinar.github.io/post/gsi-kurulumu/</link><pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/gsi-kurulumu/</guid><description>Merhaba
 Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &amp;ldquo;GSI&amp;rdquo; nedir onu anlatacağım.
