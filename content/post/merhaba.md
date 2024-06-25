@@ -5,12 +5,13 @@ tags: ["merhaba"]
 #author: "Yazar"
 draft: false
 weight: 1
+ShowToc: True
 ---
 
 {{< notice warning >}}
 Bu bir tanıtım yazısıdır sıkıcı olabilir
 {{< /notice >}}
-
+# 1. merhaba
 Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 
 ---
