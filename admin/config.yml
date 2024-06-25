@@ -25,7 +25,7 @@ collections:
     files:
       - file: "data/home.yml"
         i18n: true
-        label: "Home"
+        label: "Ana Sayfa"
         name: "home"
         fields: [
           { label: "Title", name: "title", widget: string, i18n: true },
@@ -35,8 +35,8 @@ collections:
           { label: "Register", name: "register", widget: string, i18n: true },
           { label: "Copyright", name: "copyright", widget: string, i18n: true },
         ]
-      - file: "data/about.yml"
-        label: "About"
+      - file: "content/page/hakkimda.md"
+        label: "Hakkımda"
         name: "about"
         i18n: true
         description: "Go to edit the about section"
