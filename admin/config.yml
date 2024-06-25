@@ -23,7 +23,7 @@ collections:
       structure: single_file
       locales: [ en, tr ]
     files:
-      - file: "data/home.yml"
+      - file: "config.yml"
         i18n: true
         label: "Ana Sayfa"
         name: "home"
@@ -50,7 +50,7 @@ collections:
               { label: "Content", name: "content", widget: text, i18n: true }]
             }
           ]
-      - file: "data/products.yml"
+      - file: "content/proje/"
         label: "Products"
         name: "productions"
         i18n: true
@@ -104,7 +104,7 @@ collections:
             { label: "BackgroundTitle", name: "backgroundTitle", widget: string, i18n: true },
             { label: "portText", name: "portText", widget: string, i18n: true, required: false },
           ]
-      - file: "data/contact.yml"
+      - file: "content/page/iletisim.md"
         label: "Contact"
         name: "contact"
         i18n: true
