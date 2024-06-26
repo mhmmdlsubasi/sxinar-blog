@@ -93,9 +93,29 @@ params:
         - name: email
           url: "mailto:me.unreal462@simplelogin.com"
         - name: rss
-          url: "https://sxinar.github.io/index.xml"
+          url: "https://sxinar.github.io/index.xml"l
         - name: gitlab
           url: "https://gitlab.com/Sxinar"
+        - name: xda
+          url: "https://xdaforums.com/m/basaransemih.12859096/"
+        - name: spotify
+          url:  "https://open.spotify.com/show/03ZXAoGhloIqlz1OnWLCqI"
+        - name: email
+          url: "mailto:me.sxinar@tuta.io
+         name:  email
+          url: "mailto:me.blog.sxinar@gmail.com
+        - name: gitlab
+          url: "https://gitlab.com/Sxinar"
+        - name: discord
+          url: "https://discord.com/servers/yusuf-ipek-850812269792722994"
+        - name: other
+          url: "https://techolay.net/sosyal/uye/sxinar.2046"
+        - name: other
+          url: "https://www.technopat.net/sosyal/uye/626016.626016"
+       - name: other
+          url: "https://donanimfps.com/forum/uyeler/sxinar.9"
+       - name: other
+          url: "https://forum.shiftdelete.net/members/sxinar.6673391"
  
     assets:
         favicon: "https://btt.community/user_avatar/btt.community/sxinar/288/7779_2.png"
