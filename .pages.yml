@@ -2,7 +2,7 @@ media:
   input: src/media
   output: /media
 content:
-  - name: docss
+  - name: docs
     label: Yazılar
     type: collection
     path: content/post
