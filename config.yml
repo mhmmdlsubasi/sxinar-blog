@@ -69,7 +69,7 @@ params:
     title: "Sxinar"
     description: "Açıklama"
     author: Sxinar
-    DateFormat: "2 January, 2006"a
+    DateFormat: "2 January, 2006"
     ShowPostNavLinks: true
     defaultTheme: auto
     rss: true
