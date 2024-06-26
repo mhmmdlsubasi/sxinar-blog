@@ -101,9 +101,9 @@ params:
         - name: spotify
           url:  "https://open.spotify.com/show/03ZXAoGhloIqlz1OnWLCqI"
         - name: email
-          url: "mailto:me.sxinar@tuta.io
+          url: "mailto:me.sxinar@tuta.io"
         - name: email
-          url: "mailto:me.blog.sxinar@gmail.com
+          url: "mailto:me.blog.sxinar@gmail.com"
         - name: gitlab
           url: "https://gitlab.com/Sxinar"
         - name: discord
