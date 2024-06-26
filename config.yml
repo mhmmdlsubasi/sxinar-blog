@@ -14,7 +14,7 @@ languages:
         Content: Burası benim teknoloji çiftliğim.
 
 menu:
-  main: 
+  main: /
     - identifier: Anasayfa
       name: Anasayfa
       url: /
@@ -54,13 +54,22 @@ outputs:
 params:
     ShowShareButtons: true
     ShowReadingTime: true
+    ShowToc: true
+    tocopen: true
+    ShowRssButtonInSectionTermList: true
+    ShowFullTextinRSS: true
+    enableInlineShortcodes: true
+    enableRobotsTXT: true
+    buildDrafts: false
+    buildFuture: false
+    buildExpired: false
     env: production
     gtm_id: "GTM-5XKDQD65"
     ShowBreadCrumbs: true
     title: "Sxinar"
     description: "Açıklama"
     author: Sxinar
-    DateFormat: "2 January, 2006"
+    DateFormat: "2 January, 2006"a
     ShowPostNavLinks: true
     defaultTheme: auto
     rss: true
