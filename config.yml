@@ -14,7 +14,7 @@ languages:
         Content: Burası benim teknoloji çiftliğim.
 
 menu:
-  main: /
+  main:
     - identifier: Anasayfa
       name: Anasayfa
       url: /
