@@ -90,14 +90,14 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/Sxinar"
-        - name: email
-          url: "mailto:me.unreal462@simplelogin.com"
-        - name: rss
-          url: "https://sxinar.github.io/index.xml"
         - name: gitlab
           url: "https://gitlab.com/Sxinar"
         - name: xda
           url: "https://xdaforums.com/m/basaransemih.12859096/"
+        - name: email
+          url: "mailto:me.unreal462@simplelogin.com"
+        - name: rss
+          url: "https://sxinar.github.io/index.xml"
         - name: spotify
           url:  "https://open.spotify.com/show/03ZXAoGhloIqlz1OnWLCqI"
         - name: discord
