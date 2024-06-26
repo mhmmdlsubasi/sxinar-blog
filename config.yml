@@ -102,7 +102,7 @@ params:
           url:  "https://open.spotify.com/show/03ZXAoGhloIqlz1OnWLCqI"
         - name: email
           url: "mailto:me.sxinar@tuta.io
-        - name:  email
+        - name: email
           url: "mailto:me.blog.sxinar@gmail.com
         - name: gitlab
           url: "https://gitlab.com/Sxinar"
