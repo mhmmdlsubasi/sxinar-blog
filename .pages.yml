@@ -2,68 +2,17 @@ media:
   input: src/media
   output: /media
 content:
-  - name: docs
-    label: Yazılar
+  - name: posts
+    label: Posts
     type: collection
-    path: content/post
-    filename: "{primary}.md"
+    path: _posts
     view:
-      fields: [ title, order ]
-      primary: title
-      sort: [ order, title ]
-      default:
-        sort: order
-        order: asc
+      fields: [ cover, title, published, date ]
     fields:
+      - { name: published, label: Published, type: boolean }
       - { name: title, label: Title, type: string, required: true }
-      - { name: description, label: Description, type: string, options: { maxlength: 180 }}
-      - { name: order, label: Order, type: number }
-      - { name: body, label: Body, type: rich-text }
-content:
-  - name: tanitim
-    label: Tanıtım
-    type: collection
-    path: content/tanıtım
-    filename: "{primary}.md"
-    view:
-      fields: [ title, order ]
-      primary: title
-      sort: [ order, title ]
-      default:
-        sort: order
-        order: asc
-    fields:
-      - { name: title, label: Title, type: string, required: true }
-      - { name: description, label: Description, type: string, options: { maxlength: 180 }}
-      - { name: order, label: Order, type: number }
-      - { name: body, label: Body, type: rich-text }
-  - name: site
-    label: Site Ayarları
-    path: /config.yml
-    type: file
-  - name: readme
-    label: README ayarlarım
-    path: /README.md
-    type: file
-  - name: static
-    label: Statik Klasörü
-    path: /static/admin.html
-    type: file
-    content:
-  - name: page
-    label: Sayfa Ayarları
-    type: collection
-    path: content/page
-    filename: "{primary}.md"
-    view:
-      fields: [ title, order ]
-      primary: title
-      sort: [ order, title ]
-      default:
-        sort: order
-        order: asc
-    fields:
-      - { name: title, label: Title, type: string, required: true }
-      - { name: description, label: Description, type: string, options: { maxlength: 180 }}
-      - { name: order, label: Order, type: number }
+      - { name: description, label: Description, type: string }
+      - { name: author, label: Author, type: string }
+      - { name: date, label: Date, type: date }
+      - { name: cover, label: Cover image, type: image }
       - { name: body, label: Body, type: rich-text }
