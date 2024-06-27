@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anket Uygulaması</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Anket Uygulaması</h1>
+        <form id="surveyForm">
+            <div class="question">
+                <p>Hangi programlama dilini daha çok seviyorsunuz?</p>
+                <label><input type="radio" name="q1" value="Python"> Python</label>
+                <label><input type="radio" name="q1" value="Java"> Java</label>
+                <label><input type="radio" name="q1" value="C++"> C++</label>
+                <label><input type="radio" name="q1" value="JavaScript"> JavaScript</label>
+            </div>
+            <div class="question">
+                <p>En sevdiğiniz yemek hangisi?</p>
+                <label><input type="radio" name="q2" value="Pizza"> Pizza</label>
+                <label><input type="radio" name="q2" value="Hamburger"> Hamburger</label>
+                <label><input type="radio" name="q2" value="Sushi"> Sushi</label>
+                <label><input type="radio" name="q2" value="Salata"> Salata</label>
+            </div>
+            <div class="question">
+                <p>Hangi mevsimi daha çok seviyorsunuz?</p>
+                <label><input type="radio" name="q3" value="Yaz"> Yaz</label>
+                <label><input type="radio" name="q3" value="Kış"> Kış</label>
+                <label><input type="radio" name="q3" value="İlkbahar"> İlkbahar</label>
+                <label><input type="radio" name="q3" value="Sonbahar"> Sonbahar</label>
+            </div>
+            <button type="button" onclick="submitSurvey()">Gönder</button>
+        </form>
+        <div id="results" class="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
