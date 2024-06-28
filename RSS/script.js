@@ -1,6 +1,20 @@
 document.addEventListener("DOMContentLoaded", function() {
     const rssFeeds = ["https://yusufipek.me/rss", "https://sxinar.github.io/index.xml"];
     const rssContainer = document.getElementById("rss-feeds");
+    const modal = document.getElementById("myModal");
+    const modalTitle = document.getElementById("modal-title");
+    const modalContent = document.getElementById("modal-content");
+    const closeModal = document.getElementsByClassName("close")[0];
+
+    closeModal.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 
     rssFeeds.forEach(feed => {
         fetch(`https://api.rss2json.com/v1/api.json?rss_url=${feed}`)
@@ -16,8 +30,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     const itemTitle = document.createElement('h3');
                     const itemLink = document.createElement('a');
-                    itemLink.href = item.link;
+                    itemLink.href = "#";
                     itemLink.textContent = item.title;
+                    itemLink.onclick = function() {
+                        modalTitle.textContent = item.title;
+                        modalContent.innerHTML = item.content; // Tam içerik burada gösteriliyor
+                        modal.style.display = "block";
+                    }
                     itemTitle.appendChild(itemLink);
                     itemContainer.appendChild(itemTitle);
 
