@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Reader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #rss-feed {
+            margin-top: 20px;
+        }
+
+        .rss-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .rss-item h3 {
+            margin: 0 0 10px;
+        }
+
+        .rss-item p {
+            margin: 0 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>RSS Reader</h1>
+    <div id="rss-feed"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const url = 'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml'; // Buraya RSS feed URL'sini yazabilirsiniz
+
+            const proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(url);
+
+            fetch(proxyUrl)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status !== 'ok') {
+                        alert('Failed to fetch RSS feed');
+                        return;
+                    }
+
+                    displayRSS(data.items);
+                })
+                .catch(error => console.error('Error fetching the RSS feed:', error));
+        });
+
+        function displayRSS(items) {
+            const feedContainer = document.getElementById('rss-feed');
+            feedContainer.innerHTML = '';
+
+            items.forEach(item => {
+                const article = document.createElement('div');
+                article.className = 'rss-item';
+
+                const title = document.createElement('h3');
+                title.textContent = item.title;
+                article.appendChild(title);
+
+                const description = document.createElement('p');
+                description.innerHTML = item.description;
+                article.appendChild(description);
+
+                const link = document.createElement('a');
+                link.href = item.link;
+                link.textContent = 'Read more';
+                link.target = '_blank';
+                article.appendChild(link);
+
+                feedContainer.appendChild(article);
+            });
+        }
+    </script>
+</body>
+</html>
