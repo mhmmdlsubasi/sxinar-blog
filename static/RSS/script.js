@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         // Resimlerin boyutunu küçült
                         const images = modalContent.getElementsByTagName('img');
                         for (let img of images) {
-                            img.style.width = "10%";
+                            img.style.width = "25%"; // Genişliği %25 yaparak resim boyutunu 1/4 oranında küçültür
                             img.style.height = "auto";
                         }
                     }
