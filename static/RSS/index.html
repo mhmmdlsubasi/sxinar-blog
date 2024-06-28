@@ -15,39 +15,33 @@
             text-align: center;
         }
 
-        div {
-            margin: 20px 0;
-        }
-
-        input {
-            width: 300px;
-            padding: 10px;
-        }
-
-        button {
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-
         #rss-feed {
             margin-top: 20px;
+        }
+
+        .rss-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .rss-item h3 {
+            margin: 0 0 10px;
+        }
+
+        .rss-item p {
+            margin: 0 0 10px;
         }
     </style>
 </head>
 <body>
     <h1>RSS Reader</h1>
-    <div>
-        <input type="text" id="rss-url" placeholder="Enter RSS feed URL">
-        <button onclick="fetchRSS()">Fetch RSS</button>
-    </div>
     <div id="rss-feed"></div>
     <script>
-        function fetchRSS() {
-            const url = document.getElementById('rss-url').value;
-            if (!url) {
-                alert('Please enter a valid RSS feed URL');
-                return;
-            }
+        document.addEventListener('DOMContentLoaded', function() {
+            const url = 'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml'; // Buraya RSS feed URL'sini yazabilirsiniz
 
             const proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(url);
 
@@ -62,7 +56,7 @@
                     displayRSS(data.items);
                 })
                 .catch(error => console.error('Error fetching the RSS feed:', error));
-        }
+        });
 
         function displayRSS(items) {
             const feedContainer = document.getElementById('rss-feed');
