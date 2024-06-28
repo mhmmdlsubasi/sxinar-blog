@@ -36,6 +36,13 @@
             margin: 0 0 10px;
         }
 
+        .rss-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+
         #article-content {
             margin-top: 20px;
             padding: 20px;
@@ -62,7 +69,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const urls = [
-                'https://sxinar.github.io/index.xml',
+                'https://www.omerkurt.dev/blog/rss.xml',
                 'https://yusufipek.me/rss/',
                 // Buraya diğer RSS feed URL'lerinizi ekleyebilirsiniz
             ];
@@ -99,6 +106,12 @@
                 const description = document.createElement('p');
                 description.innerHTML = item.description;
                 article.appendChild(description);
+
+                if (item.thumbnail) {
+                    const img = document.createElement('img');
+                    img.src = item.thumbnail;
+                    article.appendChild(img);
+                }
 
                 feedContainer.appendChild(article);
             });
