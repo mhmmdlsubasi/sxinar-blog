@@ -25,6 +25,7 @@
             background: white;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
         }
 
         .rss-item h3 {
@@ -34,37 +35,62 @@
         .rss-item p {
             margin: 0 0 10px;
         }
+
+        #article-content {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+
+        #back-button {
+            display: none;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <h1>RSS Reader</h1>
     <div id="rss-feed"></div>
+    <div id="back-button" onclick="showFeed()">Back to Feed</div>
+    <div id="article-content"></div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const url = 'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml'; // Buraya RSS feed URL'sini yazabilirsiniz
+            const urls = [
+                'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml',
+                'https://rss.cnn.com/rss/edition.rss',
+                // Buraya diğer RSS feed URL'lerinizi ekleyebilirsiniz
+            ];
 
-            const proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(url);
+            urls.forEach(url => {
+                const proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(url);
 
-            fetch(proxyUrl)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.status !== 'ok') {
-                        alert('Failed to fetch RSS feed');
-                        return;
-                    }
+                fetch(proxyUrl)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status !== 'ok') {
+                            console.error('Failed to fetch RSS feed');
+                            return;
+                        }
 
-                    displayRSS(data.items);
-                })
-                .catch(error => console.error('Error fetching the RSS feed:', error));
+                        displayRSS(data.items);
+                    })
+                    .catch(error => console.error('Error fetching the RSS feed:', error));
+            });
         });
 
         function displayRSS(items) {
             const feedContainer = document.getElementById('rss-feed');
-            feedContainer.innerHTML = '';
 
             items.forEach(item => {
                 const article = document.createElement('div');
                 article.className = 'rss-item';
+                article.onclick = () => showArticle(item);
 
                 const title = document.createElement('h3');
                 title.textContent = item.title;
@@ -74,14 +100,33 @@
                 description.innerHTML = item.description;
                 article.appendChild(description);
 
-                const link = document.createElement('a');
-                link.href = item.link;
-                link.textContent = 'Read more';
-                link.target = '_blank';
-                article.appendChild(link);
-
                 feedContainer.appendChild(article);
             });
+        }
+
+        function showArticle(item) {
+            const feedContainer = document.getElementById('rss-feed');
+            const articleContent = document.getElementById('article-content');
+            const backButton = document.getElementById('back-button');
+
+            feedContainer.style.display = 'none';
+            articleContent.style.display = 'block';
+            backButton.style.display = 'block';
+
+            articleContent.innerHTML = `
+                <h2>${item.title}</h2>
+                <p>${item.content}</p>
+            `;
+        }
+
+        function showFeed() {
+            const feedContainer = document.getElementById('rss-feed');
+            const articleContent = document.getElementById('article-content');
+            const backButton = document.getElementById('back-button');
+
+            feedContainer.style.display = 'block';
+            articleContent.style.display = 'none';
+            backButton.style.display = 'none';
         }
     </script>
 </body>
