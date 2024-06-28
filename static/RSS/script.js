@@ -36,6 +36,12 @@ document.addEventListener("DOMContentLoaded", function() {
                         modalTitle.textContent = item.title;
                         modalContent.innerHTML = item.content; // Tam içerik burada gösteriliyor
                         modal.style.display = "block";
+                        // Resimlerin boyutunu küçült
+                        const images = modalContent.getElementsByTagName('img');
+                        for (let img of images) {
+                            img.style.width = "10%";
+                            img.style.height = "auto";
+                        }
                     }
                     itemTitle.appendChild(itemLink);
                     itemContainer.appendChild(itemTitle);
