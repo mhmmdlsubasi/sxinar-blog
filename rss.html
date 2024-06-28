@@ -9,6 +9,7 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             padding: 20px;
+            margin: 0;
         }
 
         h1 {
@@ -59,6 +60,48 @@
             color: blue;
             text-decoration: underline;
         }
+
+        #modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        #modal img {
+            display: block;
+            margin: auto;
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        #modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .rss-item {
+                padding: 10px;
+            }
+
+            #article-content {
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -66,11 +109,18 @@
     <div id="rss-feed"></div>
     <div id="back-button" onclick="showFeed()">Back to Feed</div>
     <div id="article-content"></div>
+
+    <!-- Modal for image zoom -->
+    <div id="modal">
+        <span id="modal-close" onclick="closeModal()">&times;</span>
+        <img id="modal-img" src="">
+    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const urls = [
-                'https://www.omerkurt.dev/blog/rss.xml',
-                'https://yusufipek.me/rss/',
+                'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml',
+                'https://rss.cnn.com/rss/edition.rss',
                 // Buraya diğer RSS feed URL'lerinizi ekleyebilirsiniz
             ];
 
@@ -110,6 +160,10 @@
                 if (item.thumbnail) {
                     const img = document.createElement('img');
                     img.src = item.thumbnail;
+                    img.onclick = (event) => {
+                        event.stopPropagation();
+                        openModal(item.thumbnail);
+                    };
                     article.appendChild(img);
                 }
 
@@ -140,6 +194,19 @@
             feedContainer.style.display = 'block';
             articleContent.style.display = 'none';
             backButton.style.display = 'none';
+        }
+
+        function openModal(imageUrl) {
+            const modal = document.getElementById('modal');
+            const modalImg = document.getElementById('modal-img');
+
+            modal.style.display = 'block';
+            modalImg.src = imageUrl;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.style.display = 'none';
         }
     </script>
 </body>
