@@ -1,4 +1,4 @@
-baseURL: "https://sxinar.github.io"
+baseURL: "https://sxi.is-a.dev"
 title: "Sxinar"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
@@ -104,15 +104,15 @@ params:
           url: "https://discord.com/servers/yusuf-ipek-850812269792722994"
         - name: forum
           url: "https://techolay.net/sosyal/uye/sxinar.2046"
-        - name: other
+        - name: forum
           url: "https://www.technopat.net/sosyal/uye/626016.626016"
-        - name: other
+        - name: forum
           url: "https://donanimfps.com/forum/uyeler/sxinar.9"
-        - name: other
+        - name: forum
           url: "https://forum.shiftdelete.net/members/sxinar.6673391"
  
     assets:
-        favicon: "https://avatars.githubusercontent.com/u/130384567?s=400&u=4907e9b77e98e690cf6f42570301d4021ccb2efd&v=4"
+        favicon: "https://avatars.githubusercontent.com/u/130384567?v=4"
 
     editPost:
         URL: "https://github.com/sxinar/sxinar.github.io/tree/main/content"
