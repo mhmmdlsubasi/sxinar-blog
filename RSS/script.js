@@ -2,8 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const rssFeeds = ["https://yusufipek.me/rss", "https://sxinar.github.io/index.xml"];
     const rssContainer = document.getElementById("rss-feeds");
     const modal = document.getElementById("myModal");
-    const modalTitle = document.getElementById("modal-title");
-    const modalContent = document.getElementById("modal-content");
+    const modalImage = document.getElementById("modal-image");
     const closeModal = document.getElementsByClassName("close")[0];
 
     closeModal.onclick = function() {
@@ -34,13 +33,16 @@ document.addEventListener("DOMContentLoaded", function() {
                     itemLink.textContent = item.title;
                     itemLink.onclick = function() {
                         modalTitle.textContent = item.title;
-                        modalContent.innerHTML = item.content; // Tam içerik burada gösteriliyor
+                        modalContent.innerHTML = item.content;
                         modal.style.display = "block";
-                        // Resimlerin boyutunu küçült
                         const images = modalContent.getElementsByTagName('img');
                         for (let img of images) {
-                            img.style.width = "25%"; // Genişliği %25 yaparak resim boyutunu 1/4 oranında küçültür
+                            img.style.width = "25%";
                             img.style.height = "auto";
+                            img.onclick = function() {
+                                modalImage.src = img.src;
+                                modal.style.display = "block";
+                            }
                         }
                     }
                     itemTitle.appendChild(itemLink);
@@ -49,6 +51,14 @@ document.addEventListener("DOMContentLoaded", function() {
                     const itemDescription = document.createElement('p');
                     itemDescription.textContent = item.description;
                     itemContainer.appendChild(itemDescription);
+
+                    const itemImage = document.createElement('img');
+                    itemImage.src = item.thumbnail; // Eğer RSS'de resim varsa
+                    itemImage.onclick = function() {
+                        modalImage.src = itemImage.src;
+                        modal.style.display = "block";
+                    }
+                    itemContainer.appendChild(itemImage);
 
                     rssContainer.appendChild(itemContainer);
                 });
