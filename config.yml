@@ -88,6 +88,8 @@ params:
     keys: ["title", "permalink", "summary", "content"]
   
     socialIcons:
+        - name: hugo
+          url: "https://gohugo.io"
         - name: github
           url: "https://github.com/Sxinar"
         - name: gitlab
