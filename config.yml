@@ -31,7 +31,6 @@ menu:
       name: Mesaj bırak
       url: /chat
       weight: 1
-      parent: "İletişim"
     - identifier: Kategoriler
       name: Kategoriler
       url: /tags/
@@ -88,8 +87,8 @@ params:
     keys: ["title", "permalink", "summary", "content"]
   
     socialIcons:
-        - name: hugo
-          url: "https://gohugo.io"
+        - name: android
+          url: "https://www.android.com/"
         - name: github
           url: "https://github.com/Sxinar"
         - name: gitlab
