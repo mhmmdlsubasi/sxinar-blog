@@ -27,10 +27,6 @@ menu:
       name: İletişim
       url: /page/iletisim/
       weight: 6
-    - identifier: Mesaj bırak
-      name: Mesaj bırak
-      url: /chat
-      weight: 1
     - identifier: Kategoriler
       name: Kategoriler
       url: /tags/
