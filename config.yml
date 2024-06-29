@@ -97,8 +97,6 @@ params:
           url: "https://xdaforums.com/m/basaransemih.12859096/"
         - name: forum
           url: "https://techolay.net/sosyal/uye/sxinar.2046"
-        - name: forum
-          url: "https://www.technopat.net/sosyal/uye/626016.626016"
         - name: email
           url: "mailto:me.unreal462@simplelogin.com"
         - name: rss
