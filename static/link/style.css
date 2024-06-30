@@ -1,47 +1,64 @@
-body{
-    font-family: Consolas, monaco, monospace;
-    background-color: #161616;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    color: white;
+body {
+  font-family: Consolas, monaco, monospace;
+  background-color: #161616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
 }
-  
-.a-t{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.a-t {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-  
-.avatar{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    user-select: none;
-    -webkit-user-drag: none;
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
-  
-a{
-    color: white;
-    text-decoration: none;
+
+a {
+  color: white;
+  text-decoration: none;
 }
-  
-i{
-    font-size: 50px;
-    margin-right: 5px;
-    transition: 0.5s;
+
+i {
+  font-size: 50px;
+  margin-right: 5px;
+  transition: 0.5s;
 }
-  
-i:hover{
-    scale: 125%;
-  }
-.social{
-    display: flex;
+
+i:hover {
+  transform: scale(1.25);
 }
-  
-.social a{ 
-    margin-right: 10px;
+
+.social {
+  display: flex;
+  margin-bottom: 20px; /* Adding space between social links and recommended links */
+}
+
+.social a {
+  margin-right: 10px;
+}
+
+.recommended {
+  display: flex;
+  justify-content: center;
+}
+
+.recommended a {
+  color: #a0a0a0; /* Lighter color for recommended links */
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.recommended a:hover {
+  color: white;
 }
