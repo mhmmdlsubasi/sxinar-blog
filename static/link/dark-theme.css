@@ -1,0 +1,16 @@
+body {
+  background-color: #161616; /* Dark mode background */
+  color: white; /* Dark mode text color */
+}
+
+a {
+  color: white; /* Dark mode link color */
+}
+
+.recommended a, .opensource a {
+  color: #a0a0a0; /* Dark mode link color */
+}
+
+.recommended a:hover, .opensource a:hover {
+  color: white; /* Dark mode link hover color */
+}
