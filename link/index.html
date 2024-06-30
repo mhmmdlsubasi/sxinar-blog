@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" id="theme-style">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,6 +33,25 @@
       <a href="https://www.gimp.org/" target="_blank">GIMP</a>
       <a href="https://www.blender.org/" target="_blank">Blender</a>
     </div>
+
+    <div class="theme-switch">
+      <label for="theme-toggle">Karanlık Mod</label>
+      <input type="checkbox" id="theme-toggle">
+    </div>
   </div>
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeStyle = document.getElementById('theme-style');
+    
+    themeToggle.addEventListener('change', function() {
+      if(this.checked) {
+        themeStyle.href = 'dark-theme.css'; // Dark mode CSS file
+      } else {
+        themeStyle.href = 'style.css'; // Light mode CSS file
+      }
+    });
+  </script>
+
 </body>
 </html>
