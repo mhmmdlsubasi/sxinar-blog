@@ -39,20 +39,8 @@
       <label for="theme-toggle">Karanlık Mod</label>
       <input type="checkbox" id="theme-toggle">
     </div>
+ 
   </div>
-
-  <script>
-    const themeToggle = document.getElementById('theme-toggle');
-    const themeStyle = document.getElementById('theme-style');
-    
-    themeToggle.addEventListener('change', function() {
-      if(this.checked) {
-        themeStyle.href = 'dark-theme.css'; // Dark mode CSS file
-      } else {
-        themeStyle.href = 'style.css'; // Light mode CSS file
-      }
-    });
-  </script>
 
 </body>
 </html>
