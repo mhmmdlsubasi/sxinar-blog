@@ -19,34 +19,28 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Blog yazılarını yükle
-  const blogList = document.getElementById('blog-list');
-  const blogPosts = [
-    {
-      title: "Blog Yazısı 1",
-      content: "Bu, ilk blog yazısının içeriğidir."
-    },
-    {
-      title: "Blog Yazısı 2",
-      content: "Bu, ikinci blog yazısının içeriğidir."
-    },
-    {
-      title: "Blog Yazısı 3",
-      content: "Bu, üçüncü blog yazısının içeriğidir."
-    }
-  ];
+  if (window.location.pathname === '/blog') {
+    const blogList = document.getElementById('blog-list');
+    const blogFiles = ['yazi/yazi1.json', 'yazi/yazi2.json', 'yazi/yazi3.json'];
 
-  blogPosts.forEach(post => {
-    const postDiv = document.createElement('div');
-    postDiv.className = 'blog-post';
+    blogFiles.forEach(file => {
+      fetch(file)
+        .then(response => response.json())
+        .then(post => {
+          const postDiv = document.createElement('div');
+          postDiv.className = 'blog-post';
 
-    const postTitle = document.createElement('h4');
-    postTitle.textContent = post.title;
+          const postTitle = document.createElement('h4');
+          postTitle.textContent = post.title;
 
-    const postContent = document.createElement('p');
-    postContent.textContent = post.content;
+          const postContent = document.createElement('p');
+          postContent.textContent = post.content;
 
-    postDiv.appendChild(postTitle);
-    postDiv.appendChild(postContent);
-    blogList.appendChild(postDiv);
-  });
+          postDiv.appendChild(postTitle);
+          postDiv.appendChild(postContent);
+          blogList.appendChild(postDiv);
+        })
+        .catch(error => console.error('Error loading blog post:', error));
+    });
+  }
 });
