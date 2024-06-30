@@ -14,7 +14,4 @@ document.addEventListener('DOMContentLoaded', function () {
       localStorage.setItem('theme', 'light');
     } else {
       document.body.classList.remove('light-mode');
-      localStorage.setItem('theme', 'dark');
-    }
-  });
-});
+      localStorage.set
