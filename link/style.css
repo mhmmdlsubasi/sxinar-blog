@@ -41,24 +41,26 @@ i:hover {
 
 .social {
   display: flex;
-  margin-bottom: 20px; /* Adding space between social links and recommended links */
+  margin-bottom: 20px;
 }
 
 .social a {
   margin-right: 10px;
 }
 
-.recommended {
+.recommended, .opensource {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
-.recommended a {
-  color: #a0a0a0; /* Lighter color for recommended links */
+.recommended a, .opensource a {
+  color: #a0a0a0;
   margin: 0 10px;
   font-size: 18px;
 }
 
-.recommended a:hover {
+.recommended a:hover, .opensource a:hover {
   color: white;
 }
