@@ -1,16 +1,26 @@
+/* dark-theme.css */
 body {
-  background-color: #161616; /* Dark mode background */
-  color: white; /* Dark mode text color */
+  background-color: #161616; /* Dark moda uygun arka plan rengi */
+  color: white; /* Dark moda uygun metin rengi */
 }
 
 a {
-  color: white; /* Dark mode link color */
+  color: white; /* Dark moda uygun bağlantı rengi */
 }
 
 .recommended a, .opensource a {
-  color: #a0a0a0; /* Dark mode link color */
+  color: #a0a0a0; /* Dark moda uygun bağlantı rengi */
 }
 
 .recommended a:hover, .opensource a:hover {
-  color: white; /* Dark mode link hover color */
+  color: white; /* Dark moda uygun bağlantı hover rengi */
+}
+
+
+.theme-switch {
+  margin-top: 20px;
+}
+
+.theme-switch label {
+  margin-right: 10px;
 }
