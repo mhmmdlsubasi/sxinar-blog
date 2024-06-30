@@ -10,6 +10,11 @@ body {
   color: #ccc; /* Karanlık moda uygun metin rengi */
 }
 
+body.light-mode {
+  background-color: #f0f0f0; /* Aydınlık moda uygun arka plan rengi */
+  color: #333; /* Aydınlık moda uygun metin rengi */
+}
+
 .a-t {
   display: flex;
   flex-direction: column;
@@ -28,6 +33,10 @@ body {
 a {
   color: #ccc; /* Karanlık moda uygun bağlantı rengi */
   text-decoration: none;
+}
+
+body.light-mode a {
+  color: #333; /* Aydınlık moda uygun bağlantı rengi */
 }
 
 i {
@@ -66,6 +75,14 @@ i:hover {
   color: #ccc; /* Karanlık moda uygun bağlantı hover rengi */
 }
 
+body.light-mode .recommended a, body.light-mode .opensource a {
+  color: #666; /* Aydınlık moda uygun bağlantı rengi */
+}
+
+body.light-mode .recommended a:hover, body.light-mode .opensource a:hover {
+  color: #333; /* Aydınlık moda uygun bağlantı hover rengi */
+}
+
 .theme-switch {
-  display: none; /* Karanlık modu değiştirme seçeneğini gizle */
+  display: block; /* Karanlık modu değiştirme seçeneğini görünür yap */
 }
