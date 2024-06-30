@@ -1,3 +1,4 @@
+/* style.css */
 body {
   font-family: Consolas, monaco, monospace;
   background-color: #161616; /* Karanlık moda uygun arka plan rengi */
@@ -116,4 +117,43 @@ body.light-mode .theme-switch label {
 
 #theme-toggle:not(:checked) + label i.fa-moon {
   color: #f39c12; /* Karanlık mod ikonu rengi */
+}
+
+#blog-section {
+  width: 80%;
+  margin-top: 20px;
+}
+
+#blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+#blog-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#blog-list li:hover {
+  background-color: #444;
+}
+
+body.light-mode #blog-list li:hover {
+  background-color: #ddd;
+}
+
+#blog-details {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blog-details.visible {
+  display: flex;
+}
+
+.hidden {
+  display: none;
 }
