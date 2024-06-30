@@ -80,9 +80,4 @@ body.light-mode .recommended a, body.light-mode .opensource a {
 }
 
 body.light-mode .recommended a:hover, body.light-mode .opensource a:hover {
-  color: #333; /* Aydınlık moda uygun bağlantı hover rengi */
-}
-
-.theme-switch {
-  display: block; /* Karanlık modu değiştirme seçeneğini görünür yap */
-}
+  color: #333; /*
