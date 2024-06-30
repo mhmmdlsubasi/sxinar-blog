@@ -1,21 +1,70 @@
 /* dark-theme.css */
 body {
-  background-color: #161616; /* Dark moda uygun arka plan rengi */
-  color: white; /* Dark moda uygun metin rengi */
+  font-family: Consolas, monaco, monospace;
+  background-color: #161616; /* Karanlık moda uygun arka plan rengi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #ccc; /* Karanlık moda uygun metin rengi */
+}
+
+.a-t {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 a {
-  color: white; /* Dark moda uygun bağlantı rengi */
+  color: #ccc; /* Karanlık moda uygun bağlantı rengi */
+  text-decoration: none;
+}
+
+i {
+  font-size: 50px;
+  margin-right: 5px;
+  transition: transform 0.5s; /* Geçiş efekti için transition eklendi */
+}
+
+i:hover {
+  transform: scale(1.25);
+}
+
+.social {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.social a {
+  margin-right: 10px;
+}
+
+.recommended, .opensource {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .recommended a, .opensource a {
-  color: #a0a0a0; /* Dark moda uygun bağlantı rengi */
+  color: #888; /* Karanlık moda uygun bağlantı rengi */
+  margin: 0 10px;
+  font-size: 18px;
 }
 
 .recommended a:hover, .opensource a:hover {
-  color: white; /* Dark moda uygun bağlantı hover rengi */
+  color: #ccc; /* Karanlık moda uygun bağlantı hover rengi */
 }
-
 
 .theme-switch {
   margin-top: 20px;
