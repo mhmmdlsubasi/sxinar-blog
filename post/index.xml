@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxinar.github.io/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.128.0</generator><language>tr</language><lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxinar.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxinar.github.io/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/merhaba/</guid><description>Bu bir tanıtım yazısıdır sıkıcı olabilir
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxi.is-a.dev/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.128.0</generator><language>tr</language><lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Bu bir tanıtım yazısıdır sıkıcı olabilir
 1. merhaba Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</description><content:encoded><![CDATA[<style type="text/css">
      
@@ -124,7 +124,7 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 <p>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.</p>
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
-]]></content:encoded></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxinar.github.io/post/gsi-kurulumu/</link><pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/gsi-kurulumu/</guid><description>Merhaba
+]]></content:encoded></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxi.is-a.dev/post/gsi-kurulumu/</link><pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gsi-kurulumu/</guid><description>Merhaba
 Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &amp;ldquo;GSI&amp;rdquo; nedir onu anlatacağım.
 GSI nedir? GSI&amp;rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.
 GSI kurmanın en büyük 2 sebebi;
@@ -307,7 +307,7 @@ Veya</p>
 <p>Eğer sorunlar olur ise bazıları için çözümler tabii ki de var. Ama bazılarında maalesef.</p>
 <p>Sorumluluk kabul etmem. Her şeyden yapan kişi sorumludur.</p>
 <p>Mutlu günler.</p>
-]]></content:encoded></item><item><title>Gnome Aktiviteler kısayolunu dağıtımımızdan kaldırma</title><link>https://sxinar.github.io/post/gnome-activities-remove/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/gnome-activities-remove/</guid><description>Merhaba. Bugün sizlere Linux kullanımımda Gnome sevdam dolayısıyla kullandığım süre boyunca işlevsiz bulduğum ve gözüme çok batan bir kısayolu nasıl kaldıracağımızı göstereceğim.
+]]></content:encoded></item><item><title>Gnome Aktiviteler kısayolunu dağıtımımızdan kaldırma</title><link>https://sxi.is-a.dev/post/gnome-activities-remove/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gnome-activities-remove/</guid><description>Merhaba. Bugün sizlere Linux kullanımımda Gnome sevdam dolayısıyla kullandığım süre boyunca işlevsiz bulduğum ve gözüme çok batan bir kısayolu nasıl kaldıracağımızı göstereceğim.
 Kısayolumuz böyle duruyor: Kısayolumuzu kaldırmak için shell extensions altyapısını kullanacağız.
 Eğer dağıtımınızda yüklü değilse blogumda yer alıyor Gitmek için tıklayınız
 Eğer altyapımız dağıtımımıza entegre olduysa Gnome Eklentimizin bulunduğu siteye gitmek için tıklayabiliriz.
@@ -323,7 +323,7 @@ Bugün sizlere Linux kullanımımda Gnome sevdam dolayısıyla kullandığım s�
 </p>
 <p>Ekranımızı sade ve şık bir görünüme kavuşturuyoruz.</p>
 <p>Makalemizin sonuna geldi Mutlu günler.</p>
-]]></content:encoded></item><item><title>Gnome Kabuk Eklentisini İşletim sistemimize ekleyelim!</title><link>https://sxinar.github.io/post/gnome-shell-extensions/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/gnome-shell-extensions/</guid><description>Merhabalar. Bugün Fedora kullanırken çok işime yarayan,linux kullanımımı çok işlevsel bir hale getiren &amp;ldquo;Gnome Eklentileri&amp;rdquo; uygulamasını nasıl Linux dağıtımımıza ekleyeceğimizi göstereceğim.
+]]></content:encoded></item><item><title>Gnome Kabuk Eklentisini İşletim sistemimize ekleyelim!</title><link>https://sxi.is-a.dev/post/gnome-shell-extensions/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gnome-shell-extensions/</guid><description>Merhabalar. Bugün Fedora kullanırken çok işime yarayan,linux kullanımımı çok işlevsel bir hale getiren &amp;ldquo;Gnome Eklentileri&amp;rdquo; uygulamasını nasıl Linux dağıtımımıza ekleyeceğimizi göstereceğim.
 Öncelikle kullanmakta olduğumuz tarayıcımıza &amp;ldquo;Gnome Kabuk Bağlantısı&amp;rdquo; uzantısını eklememiz gerekiyor.
 Chrome tabanlı tarayıcılar için uzantıyı Chrome Web Mağazası&amp;rsquo;nı kullanarak yükleyin .
 Firefox için uzantıyı Mozilla Eklentiler sitesinden manuel olarak yüklemelisiniz.Lütfen Firefox&amp;rsquo;un bağlayıcı sürüm 8&amp;rsquo;den beri desteklendiğini unutmayın.
@@ -370,7 +370,7 @@ Bugün Fedora kullanırken çok işime yarayan,linux kullanımımı çok işlevs
 </ul>
 </li>
 </ul>
-]]></content:encoded></item><item><title>TWRP derleme rehberi</title><link>https://sxinar.github.io/post/twrp-derleme-rehberi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxinar.github.io/post/twrp-derleme-rehberi/</guid><description>Android cihazlar için detaylı TWRP derleme rehberimi okumaktasınız iyi okumalar</description><content:encoded><![CDATA[<ul>
+]]></content:encoded></item><item><title>TWRP derleme rehberi</title><link>https://sxi.is-a.dev/post/twrp-derleme-rehberi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/twrp-derleme-rehberi/</guid><description>Android cihazlar için detaylı TWRP derleme rehberimi okumaktasınız iyi okumalar</description><content:encoded><![CDATA[<ul>
 <li>
 <p>Herkese merhaba, sevgili okurlarım, bugün sizlere güncel şekilde nasıl TWRP derleneceğini anlatacağım. Umarım rehberi beğenirsiniz.</p>
 <p><strong>Yapacağınız işlemlerin sorumluluğu size aittir.</strong></p>
