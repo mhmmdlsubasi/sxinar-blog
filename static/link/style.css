@@ -80,4 +80,41 @@ body.light-mode .recommended a, body.light-mode .opensource a {
 }
 
 body.light-mode .recommended a:hover, body.light-mode .opensource a:hover {
-  color: #333; /*
+  color: #333; /* Aydınlık moda uygun bağlantı hover rengi */
+}
+
+.theme-switch {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.theme-switch label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #ccc; /* Karanlık moda uygun metin rengi */
+  transition: color 0.3s ease;
+}
+
+body.light-mode .theme-switch label {
+  color: #333; /* Aydınlık moda uygun metin rengi */
+}
+
+.theme-switch i {
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+#theme-toggle {
+  display: none;
+}
+
+#theme-toggle:checked + label i.fa-sun {
+  color: #f39c12; /* Aydınlık mod ikonu rengi */
+}
+
+#theme-toggle:not(:checked) + label i.fa-moon {
+  color: #f39c12; /* Karanlık mod ikonu rengi */
+}
