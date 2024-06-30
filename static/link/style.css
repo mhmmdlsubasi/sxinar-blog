@@ -1,12 +1,13 @@
+/* style.css */
 body {
   font-family: Consolas, monaco, monospace;
-  background-color: #f0f0f0; /* Light mode background */
+  background-color: #161616; /* Karanlık moda uygun arka plan rengi */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  color: black; /* Light mode text color */
+  color: #ccc; /* Karanlık moda uygun metin rengi */
 }
 
 .a-t {
@@ -25,14 +26,14 @@ body {
 }
 
 a {
-  color: black; /* Light mode link color */
+  color: #ccc; /* Karanlık moda uygun bağlantı rengi */
   text-decoration: none;
 }
 
 i {
   font-size: 50px;
   margin-right: 5px;
-  transition: 0.5s;
+  transition: transform 0.5s; /* Geçiş efekti için transition eklendi */
 }
 
 i:hover {
@@ -56,19 +57,15 @@ i:hover {
 }
 
 .recommended a, .opensource a {
-  color: #707070; /* Light mode link color */
+  color: #888; /* Karanlık moda uygun bağlantı rengi */
   margin: 0 10px;
   font-size: 18px;
 }
 
 .recommended a:hover, .opensource a:hover {
-  color: black; /* Light mode link hover color */
+  color: #ccc; /* Karanlık moda uygun bağlantı hover rengi */
 }
 
 .theme-switch {
-  margin-top: 20px;
-}
-
-.theme-switch label {
-  margin-right: 10px;
+  display: none; /* Karanlık modu değiştirme seçeneğini gizle */
 }
